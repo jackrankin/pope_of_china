@@ -1,0 +1,34 @@
+[project]
+name = "yuji"
+version = "0.1.0"
+description = "语迹 — a local MCP server that remembers Chinese words and language points by stable concept ID."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.2",
+    "fastembed>=0.4",
+    "numpy>=1.26",
+    "python-pptx>=1.0",
+    "pypdf>=4.0",
+]
+
+[project.scripts]
+yuji = "yuji.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["yuji"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["model: needs the real embedding model (downloads it on first run)"]

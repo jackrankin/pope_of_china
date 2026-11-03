@@ -1,4 +1,4 @@
-"""`yuji` starts the stdio MCP server. `yuji clear` wipes the index."""
+"""`yuji` starts the stdio MCP server. `yuji web` starts the quiz page."""
 
 from __future__ import annotations
 
@@ -6,32 +6,43 @@ import argparse
 import sys
 
 from . import config
+from .store import Store
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="yuji", description="语迹 MCP server")
+    parser = argparse.ArgumentParser(prog="yuji", description="语迹 — Chinese word list")
     sub = parser.add_subparsers(dest="command")
     sub.add_parser("serve", help="run the MCP server over stdio (default)")
-    sub.add_parser("clear", help="delete every concept and deck; keep the model cache")
-    sub.add_parser("status", help="show where the index lives and what it holds")
+    web = sub.add_parser("web", help="serve the pinyin quiz page")
+    web.add_argument("--port", type=int, default=8765)
+    web.add_argument("--host", default="127.0.0.1")
+    add = sub.add_parser("add", help="add a word: yuji add 我 wo3 'I, me'")
+    add.add_argument("hanzi")
+    add.add_argument("pinyin")
+    add.add_argument("meaning")
+    rm = sub.add_parser("rm", help="delete a word: yuji rm 我")
+    rm.add_argument("hanzi")
+    sub.add_parser("list", help="print every stored word")
+    sub.add_parser("clear", help="delete every word")
     args = parser.parse_args(argv)
 
+    if args.command == "web":
+        return _web(args.host, args.port)
+    if args.command == "add":
+        return _add(args.hanzi, args.pinyin, args.meaning)
+    if args.command == "rm":
+        return _rm(args.hanzi)
+    if args.command == "list":
+        return _list()
     if args.command == "clear":
         return _clear()
-    if args.command == "status":
-        return _status()
     return _serve()
 
 
 def _serve() -> int:
-    import logging
+    from .server import build_server
 
-    from .server import build_server, default_store
-
-    # stdout is the MCP transport; keep stderr readable in Cursor's MCP log.
-    for noisy in ("httpx", "huggingface_hub", "filelock"):
-        logging.getLogger(noisy).setLevel(logging.WARNING)
-    store = default_store()
+    store = Store()
     try:
         build_server(store).run(transport="stdio")
     finally:
@@ -39,35 +50,55 @@ def _serve() -> int:
     return 0
 
 
-def _clear() -> int:
-    from .server import default_store
+def _web(host: str, port: int) -> int:
+    from .web import serve
 
-    store = default_store()
-    before = store.count()
-    store.clear()
-    store.close()
-    print(
-        f"Cleared {before['total']} concept(s) and {before['decks']} deck(s) from {config.db_path()}",
-        file=sys.stderr,
-    )
+    store = Store()
+    try:
+        serve(store, host, port)
+    finally:
+        store.close()
     return 0
 
 
-def _status() -> int:
-    from .server import default_store
-
-    store = default_store()
-    counts = store.count()
+def _add(hanzi: str, pin: str, meaning: str) -> int:
+    store = Store()
+    r = store.add(hanzi, pin, meaning)
     store.close()
-    print(f"index:  {config.db_path()}")
-    print(f"models: {config.model_dir()}")
-    print(f"model:  {config.EMBED_MODEL}")
-    print(f"threshold: {config.SIMILAR_THRESHOLD}")
-    print(
-        f"concepts: {counts['total']} "
-        f"(word={counts.get('word', 0)}, language_point={counts.get('language_point', 0)}, "
-        f"other={counts.get('other', 0)}); decks: {counts['decks']}"
-    )
+    print(f"{r['status']}: {r['hanzi']}\t{r['pinyin']}\t{r['meaning']}\t(level {r['level']})")
+    if r.get("was"):
+        print(f"  was: {r['was']['pinyin']}\t{r['was']['meaning']}")
+    return 0
+
+
+def _rm(hanzi: str) -> int:
+    store = Store()
+    word = store.get(hanzi)
+    if word is None:
+        print(f"not found: {hanzi}", file=sys.stderr)
+        store.close()
+        return 1
+    store.remove(hanzi)
+    store.close()
+    print(f"removed: {word['hanzi']}\t{word['pinyin']}\t{word['meaning']}")
+    return 0
+
+
+def _list() -> int:
+    store = Store()
+    for w in store.list():
+        flag = "" if w["quiz_english"] else "\t(no english quiz)"
+        print(f"{w['hanzi']}\t{w['pinyin']}\t{w['meaning']}{flag}")
+    print(f"{store.count()} words in {config.db_path()}", file=sys.stderr)
+    store.close()
+    return 0
+
+
+def _clear() -> int:
+    store = Store()
+    n = store.clear()
+    store.close()
+    print(f"Deleted {n} word(s) from {config.db_path()}", file=sys.stderr)
     return 0
 
 

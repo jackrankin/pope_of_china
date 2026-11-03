@@ -1,15 +1,11 @@
 [project]
 name = "yuji"
-version = "0.1.0"
-description = "语迹 — a local MCP server that remembers Chinese words and language points by stable concept ID."
+version = "0.2.0"
+description = "语迹 — a local MCP server that stores Chinese words (characters, pinyin, meaning) plus a pinyin quiz page."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "mcp>=1.2",
-    "fastembed>=0.4",
-    "numpy>=1.26",
-    "python-pptx>=1.0",
-    "pypdf>=4.0",
 ]
 
 [project.scripts]
@@ -31,4 +27,3 @@ packages = ["yuji"]
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
-markers = ["model: needs the real embedding model (downloads it on first run)"]

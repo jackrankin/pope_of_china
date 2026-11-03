@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pinwin</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: Canvas; color: CanvasText;
+  }
+  main { text-align: center; width: min(90vw, 28rem); }
+  #hanzi { font-size: clamp(5rem, 25vw, 10rem); line-height: 1.1; margin: 0 0 1.5rem; }
+  #answer {
+    font-size: 1.6rem; text-align: center; width: 100%; box-sizing: border-box;
+    padding: .5rem .75rem; border: 2px solid GrayText; border-radius: .5rem;
+    background: Field; color: FieldText; outline: none;
+  }
+  #answer:focus { border-color: Highlight; }
+  #answer.ok { border-color: #2e9e4f; }
+  #answer.bad { border-color: #d64545; }
+  #footer { position: fixed; bottom: 1rem; opacity: .4; font-size: .85rem; }
+  #result { height: 6.5rem; margin-top: 1rem; font-size: 1.25rem; }
+  #result .pinyin { font-size: 1.6rem; font-weight: 600; }
+  #result .meaning { opacity: .75; }
+  .ok-text { color: #2e9e4f; } .bad-text { color: #d64545; }
+  #stats { position: fixed; top: 1rem; right: 1rem; opacity: .6; font-size: .9rem; text-align: right; }
+  #timed-btn {
+    position: fixed; top: 1rem; left: 1rem;
+    font: inherit; font-size: .9rem; padding: .3rem .8rem; border-radius: .4rem;
+    border: 1px solid GrayText; background: transparent; color: inherit; cursor: pointer; opacity: .6;
+  }
+  #timed-btn.on { opacity: 1; border-color: Highlight; background: Highlight; color: HighlightText; }
+  #empty { font-size: 1.25rem; opacity: .75; line-height: 1.6; }
+  #timer-bar {
+    position: fixed; top: 0; left: 0; height: 4px; background: Highlight;
+    transition: width .25s linear; z-index: 100;
+  }
+  #timer-display {
+    position: fixed; top: 1rem; left: 50%; transform: translateX(-50%);
+    font-size: 1.4rem; font-weight: 700; font-variant-numeric: tabular-nums;
+    display: none;
+  }
+  #timer-display .pts { font-size: .85rem; font-weight: 400; opacity: .7; margin-left: .5rem; }
+  #timer-display.urgent { color: #d64545; }
+  .point-flash {
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-size: 2rem; font-weight: 700; color: #2e9e4f; opacity: 0;
+    pointer-events: none; animation: flashUp .6s ease-out forwards;
+  }
+  @keyframes flashUp {
+    0% { opacity: 1; transform: translate(-50%, -50%); }
+    100% { opacity: 0; transform: translate(-50%, -120%); }
+  }
+  #time-up {
+    position: fixed; inset: 0; background: rgba(0,0,0,.6); display: none;
+    align-items: center; justify-content: center; z-index: 200;
+  }
+  #time-up .card {
+    background: Canvas; color: CanvasText; border-radius: 1rem; padding: 2.5rem 3rem;
+    text-align: center; max-width: 22rem; box-shadow: 0 8px 32px rgba(0,0,0,.3);
+  }
+  #time-up .score-big { font-size: 4rem; font-weight: 800; line-height: 1.1; }
+  #time-up .score-label { font-size: 1.1rem; opacity: .6; margin-bottom: 1rem; }
+  #time-up .breakdown { font-size: 1rem; opacity: .8; line-height: 1.8; margin-bottom: 1.5rem; }
+  #time-up button {
+    font: inherit; font-size: 1rem; padding: .6rem 2rem; border-radius: .5rem;
+    border: none; background: Highlight; color: HighlightText; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<button type="button" id="timed-btn">⏱</button>
+<div id="stats"></div>
+<div id="timer-bar"></div>
+<div id="timer-display"></div>
+<div id="time-up"><div class="card">
+  <div class="score-label">time's up!</div>
+  <div class="score-big" id="final-score">0</div>
+  <div class="score-label">points</div>
+  <div class="breakdown" id="final-breakdown"></div>
+  <button type="button" id="time-up-close">nice</button>
+</div></div>
+<main>
+  <div id="quiz" hidden>
+    <div id="hanzi"></div>
+    <input id="answer" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pinyin">
+    <div id="result"></div>
+  </div>
+  <div id="empty" hidden>No words yet.<br>Paste some into a chat with the 语迹 MCP server, then reload.</div>
+</main>
+<div id="footer">type ?? if you don't know</div>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const res = await fetch("/api/words");
+  const { words } = await res.json();
+  if (!words.length) { $("empty").hidden = false; return; }
+
+  const esc = s => s.replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  const mode = "pinyin";
+
+  let pool = [], elo = 10, current = null, solved = false, revealed = false, right = 0, peeked = 0;
+  let missed = [];
+  const answer = $("answer"), result = $("result"), stats = $("stats");
+
+  let timed = false, timerInterval = null, timerEnd = 0, timedScore = 0, timedRight = 0, timedRevealed = 0;
+  const timerBar = $("timer-bar"), timerDisplay = $("timer-display");
+  const TIMED_SECS = 60;
+
+  function pointsFor(w) {
+    const lv = w.level;
+    if (lv <= 100) return 1;
+    if (lv <= 300) return 2;
+    if (lv <= 600) return 3;
+    if (lv <= 1000) return 5;
+    return 8;
+  }
+
+  function flashPoints(pts) {
+    const el = document.createElement("div");
+    el.className = "point-flash";
+    el.textContent = `+${pts}`;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 650);
+  }
+
+  function startTimed() {
+    timed = true;
+    timedScore = timedRight = timedRevealed = 0;
+    timerEnd = Date.now() + TIMED_SECS * 1000;
+    $("timed-btn").classList.add("on");
+    timerDisplay.style.display = "block";
+    stats.style.display = "none";
+    timerBar.style.width = "100%";
+    next();
+    timerInterval = setInterval(tickTimer, 250);
+  }
+
+  function tickTimer() {
+    const left = Math.max(0, timerEnd - Date.now());
+    const secs = Math.ceil(left / 1000);
+    timerDisplay.innerHTML = `${secs}s<span class="pts">${timedScore} pts</span>`;
+    timerDisplay.classList.toggle("urgent", secs <= 10);
+    timerBar.style.width = `${(left / (TIMED_SECS * 1000)) * 100}%`;
+    if (left <= 0) endTimed();
+  }
+
+  function endTimed() {
+    clearInterval(timerInterval);
+    timed = false;
+    $("timed-btn").classList.remove("on");
+    timerDisplay.style.display = "none";
+    timerBar.style.width = "0";
+    stats.style.display = "";
+    answer.disabled = true;
+    $("final-score").textContent = timedScore;
+    $("final-breakdown").innerHTML =
+      `${timedRight} correct · ${timedRevealed} revealed`;
+    $("time-up").style.display = "flex";
+  }
+
+  $("time-up-close").addEventListener("click", () => {
+    $("time-up").style.display = "none";
+    next();
+  });
+
+  $("timed-btn").addEventListener("click", () => {
+    if (timed) { endTimed(); return; }
+    startTimed();
+  });
+
+  function loadElo() { elo = 10; }
+  function saveElo() {}
+  function showStats() {
+    if (timed) return;
+    stats.innerHTML = `${right} ✓  ${peeked} revealed<br>level ${elo}`;
+  }
+
+  function pickCard() {
+    if (missed.length && Math.random() < 0.5) {
+      const card = missed.shift();
+      if (card !== current) return card;
+      missed.push(card);
+    }
+    if (timed) return pool[Math.random() * pool.length | 0];
+    const known = pool.filter(w => w.level <= elo);
+    const stretch = pool.filter(w => w.level > elo && w.level <= elo + 20)
+                        .sort((a, b) => a.level - b.level);
+    if (!known.length && !stretch.length) return pool[Math.random() * pool.length | 0];
+    if (!known.length) return stretch[0];
+    if (stretch.length && Math.random() < 0.2) return stretch[0];
+    return known[Math.random() * known.length | 0];
+  }
+
+  function init() {
+    pool = [...words];
+    loadElo();
+    right = peeked = 0;
+    missed = [];
+    next();
+  }
+
+  function next() {
+    if (!pool.length) {
+      current = null;
+      $("hanzi").textContent = "—"; answer.disabled = true; answer.value = "";
+      result.textContent = "no words for this mode yet";
+      showStats();
+      return;
+    }
+    current = pickCard();
+    solved = revealed = false;
+    $("hanzi").textContent = current.hanzi;
+    answer.value = ""; answer.className = ""; answer.disabled = false;
+    result.innerHTML = "";
+    showStats();
+    answer.focus();
+  }
+
+  async function ask(text) {
+    const hanzi = current.hanzi;
+    const r = await fetch("/api/check", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ hanzi, answer: text, mode }),
+    });
+    const d = await r.json();
+    return current.hanzi === hanzi ? d : null;
+  }
+
+  function showAnswer(d, cls, label) {
+    result.innerHTML =
+      `<div class="${cls}">${label}</div>` +
+      `<div class="pinyin">${esc(d.marks)} <span style="opacity:.6">(${esc(d.pinyin)})</span></div>` +
+      `<div class="meaning">${esc(d.meaning)}</div>`;
+  }
+
+  answer.addEventListener("input", async () => {
+    if (solved || !answer.value.trim()) return;
+    if (answer.value.trim() === "??" && !revealed) {
+      const d = await ask("");
+      if (!d) return;
+      revealed = true;
+      missed.push(current, current);
+      if (timed) { timedRevealed++; }
+      else { peeked++; elo = Math.max(1, elo - 3); saveElo(); }
+      answer.value = ""; answer.className = "bad";
+      showAnswer(d, "bad-text", "now type it");
+      showStats();
+      answer.focus();
+      return;
+    }
+    if (revealed && answer.value.includes("?")) return;
+    const d = await ask(answer.value);
+    if (!d || !d.correct || solved) return;
+    solved = true;
+    answer.className = "ok"; answer.disabled = true;
+    if (!revealed) {
+      if (timed) {
+        const pts = pointsFor(current);
+        timedScore += pts; timedRight++;
+        flashPoints(pts);
+      } else {
+        right++;
+        elo = Math.min(9999, elo + 5);
+        saveElo();
+      }
+    } else if (timed) {
+      timedRight++;
+    }
+    showAnswer(d, "ok-text", revealed ? "got it" : timed ? `+${pointsFor(current)}` : "correct");
+    showStats();
+    setTimeout(next, timed ? 300 : 700);
+  });
+
+  $("quiz").hidden = false;
+  init();
+})();
+</script>
+</body>
+</html>

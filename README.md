@@ -1,83 +1,74 @@
 # 语迹 (yuji)
 
-A local MCP server that remembers the Chinese words and language points you learn,
-each under a stable concept ID. The chat you already use (Cursor, or any MCP client)
-is the interface; this server is the memory.
+A Chinese word list you fill in by pasting words into a chat, and a quiz page
+that shows you a character and asks for the pinyin.
 
-- SQLite stores each concept: ID, kind, label, gloss, notes, and links to the
-  slides that taught it. 回家 and 去家 are two rows because they are two concepts.
-  The characters are a label, not the key.
-- One embedding per concept ID, used only to find neighbors. The server never merges
-  on a score. Closeness makes the agent look at the neighbors and choose an existing
-  ID or mint a new one.
-- The embedding model (`paraphrase-multilingual-MiniLM-L12-v2`, ONNX, ~240 MB)
-  runs inside the server and is downloaded on first use.
+Each entry is three fields:
+
+```
+我   wo3   I, me
+```
+
+The characters are the key, so the same word can't be stored twice. Pinyin is
+stored as tone numbers (`ni3 hao3`, `nv3` for nǚ).
 
 ## Setup
 
-Requires [`uv`](https://docs.astral.sh/uv/).
-
-```sh
-cd /Users/jjrankin/chinese/pope_of_china
-uv sync
-```
-
-Cursor config (already in `.cursor/mcp.json` for this checkout; copy to
-`~/.cursor/mcp.json` to use it from any project):
+Requires [uv](https://docs.astral.sh/uv/). Register the MCP server once, with
+Cursor (`~/.cursor/mcp.json`):
 
 ```json
 {
   "mcpServers": {
     "yuji": {
       "command": "uv",
-      "args": ["run", "--directory", "/Users/jjrankin/chinese/pope_of_china", "yuji"]
+      "args": ["run", "--directory", "/path/to/pope_of_china", "yuji"]
     }
   }
 }
 ```
 
-Cursor launches the server when a chat first uses a tool. Running `uv run yuji`
-in a terminal only speaks MCP on stdin, so there is nothing to type there.
+or with Claude Code:
 
-## Commands
-
-```sh
-uv run yuji          # serve over stdio (what Cursor runs)
-uv run yuji status   # where the index is and what it holds
-uv run yuji clear    # delete every concept and deck; keep the model cache
+```bash
+claude mcp add --scope user yuji -- uv run --directory /path/to/pope_of_china yuji
 ```
 
-The index lives at `~/.yuji/yuji.db`; models at `~/.yuji/models`. Override the
-directory with `YUJI_HOME`, the threshold with `YUJI_SIMILAR_THRESHOLD` (default 0.75).
+## Use
 
-## Tools
+Paste words into a chat: "add 我 你 他 好 谢谢". The agent fills in pinyin
+and meaning and calls `add_words`. Re-adding a word updates it and the agent
+is told what the old values were.
 
-| Tool | Writes? | What it does |
-|---|---|---|
-| `read_slides(path, title)` | deck only | Stores the per-slide text of a `.pptx`, `.pdf`, `.txt`, or `.md` and returns it. Never creates concepts. |
-| `find_similar(description, limit)` | no | Embeds a description, returns the closest concept IDs with label, gloss, kind, score. |
-| `create_concept(label, gloss, kind, notes, deck_id, slide_numbers, confirm_new)` | yes | Mints an ID. Refuses with `needs_confirmation` if a neighbor scores at or above the threshold or has the same characters, unless `confirm_new=true`. |
-| `attach(concept_id, deck_id, slide_numbers)` | yes | Links an existing concept to slides. |
-| `relate(id_a, id_b, note)` | yes | Records two concepts as related and still distinct. |
-| `search(query, kind, limit)` | no | Text search over labels/glosses/notes; `kind` restricts to `word`, `language_point`, or `other`. |
-| `get_concept(concept_id)` | no | Full record with linked slides and relations. |
-| `list_decks()` | no | Decks that have been read. |
-| `clear_index(confirm)` | yes | Wipes everything. Does nothing without `confirm=true`. |
+Then run the quiz:
 
-A new deck goes: `read_slides`, propose concepts, `find_similar` for each, then
-`attach` or `create_concept`. A word typed in chat takes the same path from `find_similar`.
+```bash
+uv run yuji web          # http://127.0.0.1:8765
+```
 
-## Things to say in chat
+Type the pinyin and press Enter. Tone numbers (`wo3`) or tone marks (`wǒ`)
+both work; spacing doesn't matter. Wrong answers come back a few cards later.
 
-- "Ingest ~/Desktop/lesson3.pptx."
-- "Add 麻烦 máfan, troublesome."
-- "Show my language points."
-- "Quiz me on five words. Show the English, I'll answer in Chinese."
-- "Clear the index."
+Other commands:
 
-## Tests
+```bash
+uv run yuji list         # print every word
+uv run yuji clear        # delete every word
+```
 
-```sh
-uv run pytest                 # all 24, including a live stdio session and the real model
-uv run pytest -m "not model"  # offline only
+Data lives in `~/.yuji/yuji.db` (override with `YUJI_HOME`).
+
+## MCP tools
+
+| tool | what it does |
+| --- | --- |
+| `add_words(words)` | bulk add/update; each result is `added`, `updated` (with `was`), or `unchanged` |
+| `list_words(query, limit)` | list or search by characters, pinyin, or meaning |
+| `remove_word(hanzi)` | delete one word |
+| `clear_words(confirm)` | delete everything |
+
+## Development
+
+```bash
+uv run pytest
 ```

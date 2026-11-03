@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "yuji": {
-      "command": "uv",
-      "args": ["run", "--directory", "/Users/jjrankin/chinese/pope_of_china", "yuji"]
-    }
-  }
-}

@@ -1,0 +1,1007 @@
+Notes 说明:
+Column 1: Serial number; 第一列：序号
+Column 2: Character; 第二列：汉字
+Column 3: Individual raw frequency; 第三列：频率
+Column 4: Cumulative frequency in percentile; 第四列：累计频率(%)
+Column 5: Pinyin. 请注意：拼音取自于CEDICT: Chinese-English Dictionary (http://www.mandarintools.com/cedict.html), the online HSK word list (http://www.chinese-forums.com/vocabulary/)和汉语拼音与输入法论坛(http://sh.netsh.com/bbs/1951/)的GBK汉字列表。数字代表声调。如果没有声调则表示轻声。该信息只是提供给用户以参考。其准确性没有校对过。
+Column 6: English translation; 英文翻译。请注意：英文翻译来源于CEDICT: Chinese-English Dictionary (http://www.mandarintools.com/cedict.html)。目前使用的数据是21 December 2005发布的版本。该信息只是提供给用户以参考。其准确性没有校对过。
+1	的	7922684	4.094325317834	de/di2/di4	(possessive particle)/of, really and truly, aim/clear
+2	一	3050722	5.670893097424	yi1	one/1/single/a(n)
+3	是	2615490	7.0225394492842	shi4	is/are/am/yes/to be
+4	不	2237915	8.179060653924	bu4/bu2	(negative prefix)/not/no
+5	了	2128528	9.2790522830384	le/liao3/liao4	(modal particle intensifying preceding clause)/(completed action marker), to know/to understand/to know, clear, look afar from a high place
+6	在	2009181	10.317367156686	zai4	(located) at/in/exist
+7	人	1867999	11.282721271452	ren2	man/person/people
+8	有	1782004	12.203634448562	you3	to have/there is/there are/to exist/to be
+9	我	1690048	13.077026131829	wo3	I/me/myself
+10	他	1595761	13.901691695105	ta1	he/him
+11	这	1552042	14.703763929078	zhe4/zhei4	this/these, this/these/(sometimes used before a measure word, especially in Beijing)
+12	个	1199580	15.323689040917	ge4	(a measure word)/individual
+13	们	1169853	15.928251681058	men	(plural marker for pronouns and a few animate nouns)
+14	中	1104541	16.499062050484	zhong1/zhong4	within/among/in/middle/center/while (doing sth)/during/China/Chinese, hit (the mark)
+15	来	1079469	17.056915583014	lai2	to come
+16	上	1069575	17.609656043421	shang4	on/on top/upon/first (of two parts)/previous or last (week, etc.)/upper/higher/above/previous/to climb/to go into/above/to go up
+17	大	1054064	18.154380649605	da4/dai4	big/huge/large/major/great/wide/deep/oldest/eldest, doctor
+18	为	1039036	18.691339008785	wei2/wei4	act as/take...to be/to be/to do/to serve as/to become, because of/for/to
+19	和	1010465	19.213532299882	he2/he4/huo2/huo4	and/together with/with/peace/harmony/union, cap (a poem)/respond in singing, soft/warm, mix together/to blend
+20	国	985350	19.722746532323	guo2	country/state/nation
+21	地	969349	20.223691685823	de/di4	(subor. part. adverbial)/-ly, earth/ground/field/place/land
+22	到	965035	20.722407428253	dao4	to (a place)/until (a time)/up to/to go/to arrive
+23	以	910627	21.193005925076	yi3	to use/according to/so as to/in order to/by/with/because/Israel (abbrev.)
+24	说	874977	21.645181031848	shui4/shuo1	persuade (politically), to speak/to say
+25	时	833532	22.075937978714	shi2	o'clock/time/when/hour/season/period
+26	要	811011	22.495056407563	yao1/yao4	demand/ask/request/coerce, important/vital/to want/to be going to/must
+27	就	771108	22.893553559182	jiu4	at once/then/right away/only/(emphasis)/to approach/to move towards/to undertake
+28	出	755256	23.283858632848	chu1	to go out/to come out/to occur/to produce/to go beyond/to rise/to put forth/to occur/to happen/(a measure word for dramas, plays, or operas)
+29	会	734888	23.66363782689	hui4/kuai4	can/be possible/be able to/to assemble/to meet/to gather/to see/union/group/association, to balance an account/accounting
+30	可	723108	24.037329292046	ke3	can/may/able to/certain(ly)/to suit/(particle used for emphasis)
+31	也	710259	24.404380585007	ye3	also/too
+32	你	705205	24.768820045897	ni3	you
+33	对	703632	25.13244660377	dui4	couple/pair/to be opposite/to oppose/to face/for/to/correct (answer)/to answer/to reply/to direct (towards sth)/right
+34	生	682031	25.48491008595	sheng1	to be born/to give birth/life/to grow
+35	能	665358	25.828757209579	neng2	can/may/capable/energy/able
+36	而	649239	26.164274273623	er2	and/as well as/but (not)/yet (not)/(shows causal relation)/(shows change of state)/(shows contrast)
+37	子	640640	26.495347502293	zi3/zi	11 p.m.-1 a.m./1st earthly branch/child/midnight/son/child/seed/egg/small thing, (noun suff.)
+38	那	638538	26.825334448611	na3/na4/nei4	how/which, that/those, that/those/(sometimes used before a measure word, especially in Beijing)
+39	得	630688	27.151264631621	de2/de/dei3	obtain/get/gain/proper/suitable/proud/contented/allow/permit/ready/finished, a sentence particle used after a verb to show effect/degree or possibility, to have to/must/ought to/to need to
+40	于	630524	27.47711006187	yu2	(surname), in/at/to/from/by/than/out of
+41	着	626326	27.800786028123	zhao1/zhao2/zhe/zhu4/zhuo2	catch/receive/suffer, part. indicates the successful result of a verb/to touch/to come in contact with/to feel/to be affected by/to catch fire/to fall asleep/to burn, -ing part. (indicates an action in progress)/part. coverb-forming after some verbs, to make known/to show/to prove/to write/book/outstanding, to wear (clothes)/to contact/to use/to apply
+42	下	621185	28.121805201998	xia4	under/second (of two parts)/next (week, etc.)/lower/below/underneath/down(wards)/to decline/to go down/latter
+43	自	611687	28.437915950665	zi4	from/self/oneself/since
+44	之	609003	28.75263964803	zhi1	(literary equivalent of 的)/(subor. part.)/him/her/it
+45	年	601887	29.063685902377	nian2	year
+46	过	589925	29.368550372944	guo4	(experienced action marker)/to cross/to go over/to pass (time)/to celebrate (a holiday)/to live/to get along/(surname)/excessively/too-
+47	发	572904	29.664618643733	fa1/fa4	to send out/to show (one's feeling)/to issue/to develop, hair
+48	后	570764	29.959580994334	hou4	empress/queen/surname, back/behind/rear/afterwards/after/later
+49	作	542791	30.240087314363	zuo4	to regard as/to take (somebody) for/to do/to make
+50	里	537795	30.518011775859	li3	inside/internal/interior, village/within/inside, Chinese mile/neighborhood/li, a Chinese unit of length = one-half kilometer/hometown
+51	用	535480	30.794739879768	yong4	to use
+52	道	534695	31.071062307347	dao4	direction/way/method/road/path/principle/truth/reason/skill/method/Tao (of Taoism)/a measure word/to say/to speak/to talk
+53	行	531848	31.345913447647	hang2/xing2/xing4	a row/profession/professional, all right/capable/competent/OK/okay/to go/to do/to travel/temporary/to walk/to go/will do, behavior/conduct
+54	所	523028	31.61620654306	suo3	actually/place
+55	然	511026	31.880297183286	ran2	correct/right/so/thus/like this/-ly
+56	家	509790	32.143749077086	jia1	furniture/tool, -ist/-er/-ian/home/family/a person engaged in a certain art or profession
+57	种	503344	32.403869773908	zhong3/zhong4	kind/type/race/breed/seed/species (taxonomy), to plant/to cultivate
+58	事	499172	32.661834443148	shi4	matter/thing/item/work/affair
+59	成	499007	32.919713842841	cheng2/cheng4	finish/complete/accomplish/become/turn into/win/succeed/one tenth, finish/complete/accomplish/become/turn into/win/succeed/one tenth
+60	方	492763	33.174366436153	fang1	square/quadrilateral/direction/just
+61	多	481689	33.423296150884	duo1	many/much/a lot of/numerous/multi-
+62	经	481338	33.672044474033	jing1	classics/sacred book/pass through/to undergo/scripture
+63	么	477969	33.919051748062	ma/me/yao1	(interrog. part.), (interrog. suff.), one on dice/small
+64	去	476270	34.165181004148	qu4	to go/to leave/to remove
+65	法	466816	34.406424573571	fa3	law/method/way/Buddhist teaching/Legalist/France (abbrev.)
+66	学	464261	34.646347756975	xue2	learn/study/science/-ology
+67	如	449036	34.878402886704	ru2	as (if)/such as
+68	都	439568	35.105565094778	dou1/du1	all/both (if two things are involved)/entirely (due to)each/even/already, (surname)/metropolis/capital city
+69	同	437611	35.331715954343	tong2	like/same/similar/together/alike/with
+70	现	433960	35.555980031381	xian4	appear/present/now/existing/current
+71	当	429274	35.777822453278	dang1/dang4	to be/to act as/manage/withstand/when/during/ought/should/match equally/equal/same/obstruct/just at (a time or place)/on the spot/right/just at, at or in the very same.../to pawn/suitable/adequate/fitting/proper/replace/represent
+72	没	428146	35.999081941544	mei2/mo4	(negative prefix for verbs)/have not/not, drowned/to end/to die/to inundate
+73	动	426839	36.219665991638	dong4	to use/to act/to move/to change
+74	面	425180	36.439392695195	mian4	fade/side/surface/aspect/top/face/flour/noodles, flour/noodles
+75	起	424933	36.658991752822	qi3	to rise/to raise/to get up
+76	看	424616	36.878426989563	kan1/kan4	to look after/to take care of/to watch/to guard, it depends/think/to see/to look at
+77	定	422538	37.096788346793	ding4	to set/to fix/to determine/to decide/to order
+78	天	419884	37.313778156276	tian1	day/sky/heaven
+79	分	419382	37.530508539621	fen1/fen4	to divide/minute/(a measure word)/(a unit of length = 0.33 centimeter), part
+80	还	415855	37.745416221796	hai2/huan2/huan4	also/in addition/more/still/else/still/yet/(not) yet, (surname)/pay back/return
+81	进	412166	37.95841748361	jin4	advance/enter/to come in
+82	好	411866	38.171263709883	hao3/hao4	good/well, be fond of
+83	小	410987	38.383655682023	xiao3	small/tiny/few/young
+84	部	403066	38.591954199111	bu4	ministry/department/section/part/division/troops/board/(a measure word)/(a measure word for works of literature, films, machines, etc.)
+85	其	403028	38.800233078364	qi2	his/her/its/theirs/that/such/it (refers to sth preceding it)
+86	些	400528	39.007219994781	xie1	some/few/several/(a measure word)
+87	主	399693	39.21377539561	zhu3	to own/to host/master/lord/primary
+88	样	398149	39.419532880191	yang4	manner/pattern/way/appearance/shape
+89	理	398087	39.625258324093	li3	reason/logic/science/inner principle or structure
+90	心	392228	39.827955923892	xin1	heart/mind
+91	她	388612	40.028784828644	ta1	she
+92	本	388118	40.229358441539	ben3	roots or stems of plants/origin/source/this/the current/root/foundation/basis/(a measure word)
+93	前	381431	40.426476312239	qian2	before/in front/ago/former/previous/earlier/front
+94	开	377012	40.621310509428	kai1	open/operate (vehicle)/start
+95	但	374459	40.814825354169	dan4	but/yet/however/only/merely/still
+96	因	371612	41.006868911632	yin1	cause/reason/because
+97	只	370059	41.19810990178	qi2/zhi1/zhi3	earth-spirit/peace, (a measure word, for birds and some animals, etc.)/single/only, M for one of a pair, only/merely/just/but, but/only
+98	从	369958	41.38929869663	cong1/cong2/zong4	lax/yielding/unhurried, from/obey/observe/follow, second cousin
+99	想	368819	41.579898873211	xiang3	to think/to believe/to suppose/to wish/to want/to miss
+100	实	368494	41.770331094624	shi2	real/true/honest/really/solid
+101	日	363763	41.958318405564	ri4	Japan/day/sun/date/day of the month
+102	军	362526	42.145666453293	jun1	army/military/arms
+103	者	360974	42.332212450493	zhe3	-ist, -er (person)/person (who does sth)
+104	意	360232	42.518374993123	yi4	idea/meaning/wish/desire/(abbr.) Italy
+105	无	359265	42.704037804528	wu2	-less/not to have/no/none/not/to lack/un-
+106	力	359136	42.88963395065	li4	power/force/strength
+107	它	346173	43.068531011072	ta1	it
+108	与	345532	43.247096812222	yu2/yu3/yu4	(interrog. part.), and/to give/together with, take part in
+109	长	342148	43.423913812477	chang2/zhang3	length/long/forever/always/constantly, chief/head/elder/to grow/to develop
+110	把	340730	43.599998011411	ba3/ba4	(a measure word)/(marker for direct-object)/to hold/to contain/to grasp/to take hold of, handle
+111	机	339823	43.775613486227	ji1	machine/opportunity/secret
+112	十	338954	43.950779874762	shi2	ten/10
+113	民	335796	44.124314255841	min2	the people/nationality/citizen
+114	第	325780	44.292672517012	di4	(prefix before a number, for ordering numbers, e.g. "first", "number two", etc)
+115	公	318626	44.457333697329	gong1	just/honorable (designation)/public/common
+116	此	318534	44.621947333414	ci3	this/these
+117	已	318143	44.786358906511	yi3	already/to stop/then/afterwards
+118	工	317532	44.950454723891	gong1	work/worker/skill/profession/trade/craft/labor
+119	使	316273	45.113899908786	shi3	to make/to cause/to enable/to use/to employ/messenger
+120	情	312900	45.275601977423	qing2	feeling/emotion/passion/situation
+121	明	309873	45.435739737456	ming2	clear/bright/to understand/next/the Ming dynasty
+122	性	309844	45.595862510721	xing4	sex/nature/surname/suffix corresponding to -ness or -ity
+123	知	306384	45.754197207419	zhi1	to know/to be aware
+124	全	305248	45.911944836205	quan2	all/whole/entire/every/complete
+125	三	304272	46.069188082699	san1	three/3
+126	又	302933	46.225739353898	you4	(once) again/also/both... and.../again
+127	关	302473	46.382052903935	guan1	(surname)/mountain pass/to close/to shut/to turn off/to concern/to involve
+128	点	300800	46.537501872442	dian3	(downwards-right convex character stroke)/o'clock/(a measure word)/point/dot/(decimal) point)
+129	正	296810	46.690888868261	zheng1/zheng4	Chinese 1st month of year, just (right)/main/upright/straight/correct/principle
+130	业	296169	46.843944604809	ye4	business/occupation/study
+131	外	295645	46.996729545947	wai4	outside/in addition/foreign/external
+132	将	295586	47.149483996761	jiang1/jiang4	(will, shall, "future tense")/ready/prepared/to get/to use, a general
+133	两	294600	47.301728897433	liang3	both/two/ounce/some/a few/tael
+134	高	293542	47.453427039432	gao1	high/tall
+135	间	292227	47.60444560898	jian1/jian4	between/among/space/(measure word), interstice/separate
+136	由	292199	47.755449708543	you2	follow/from/it is for...to/reason/cause/because of/due to/by/to/to leave it (to sb)
+137	问	288237	47.904406305403	wen4	to ask
+138	很	284252	48.051303513501	hen3	very/extremely
+139	最	283689	48.197909771569	zui4	(the) most/-est
+140	重	282843	48.344078829412	chong2/zhong4	to double/to repeat/repetition/iteration/again/a layer, heavy/serious
+141	并	281616	48.489613791896	bing4	and/furthermore/(not) at all/simultaneously/also/together with/to combine/to join/to merge, amalgamate/combine, and/also/together with
+142	物	281146	48.634905865366	wu4	thing/object/matter
+143	手	280442	48.779834122101	shou3	hand/convenient
+144	应	280384	48.924732405298	ying1/ying4	ought, (surname)/to answer/to respond
+145	战	278776	49.068799697999	zhan4	to fight/fight/war/battle
+146	向	276986	49.211941945309	xiang4	direction/part/side/towards/to/guide/opposite to, guide/opposite to
+147	头	274911	49.354011863464	tou2/tou	head, suff. for nouns
+148	文	274222	49.495725716662	wen2	language/culture/writing/formal/literary
+149	体	273792	49.637217352252	ti3	body/form/style/system
+150	政	269878	49.776686290824	zheng4	political/politics/government
+151	美	269452	49.915935078929	mei3	America/beautiful
+152	相	269125	50.055014878296	xiang1/xiang4	each other/one another/mutually, appearance/portrait/picture
+153	见	269080	50.194071422331	jian4/xian4	to see/to meet/to appear (to be sth)/to interview, appear
+154	被	268905	50.333037528967	bei4	by (marker for passive-voice sentences or clauses)/quilt/blanket/to cover/to wear
+155	利	268813	50.471956091372	li4	advantage/benefit/profit/sharp
+156	什	267869	50.610386808609	shen2/shi2	what, tenth (used in fractions)
+157	二	267506	50.748629932842	er4	two/2
+158	等	266296	50.886247747062	deng3	class/rank/grade/equal to/same as/wait for/await/et cetera/and so on
+159	产	265164	51.02328056051	chan3	to reproduce/to produce/give birth/products/produce/resources/estate/property
+160	或	260786	51.158050888638	huo4	maybe/perhaps/might/possibly/or
+161	新	253921	51.289273486817	xin1	meso- (chem.)/new/newly
+162	己	250894	51.418931776393	ji3	6th heavenly stem/self
+163	制	250754	51.548517716051	zhi4	system/to make/to manufacture/to control/to regulate, manufacture
+164	身	249725	51.677571883804	shen1	body/torso/person/life/status/pregnancy/(a measure word used for clothes) suit
+165	果	246831	51.805130475379	guo3	fruit/result
+166	加	243648	51.931044139869	jia1	to add/plus
+167	西	243619	52.05694281759	xi1	west
+168	斯	240900	52.181436356531	si1	(phonetic)/this
+169	月	240566	52.305757289236	yue4	moon/month
+170	话	240067	52.429820346159	hua4	dialect/language/spoken words/speech/talk/words/conversation/what someone said
+171	合	239277	52.553475142826	ge3/he2	one-tenth of a peck, Chinese musical note/fit/to join
+172	回	239243	52.677112368798	hui2	(a measure word for matters or actions) a time/to circle/to go back/to turn around/to answer/to return/to revolve/Islam
+173	特	239091	52.80067104343	te2/te4	special/unusual/extraordinary, male animal/special (-ly)
+174	代	231734	52.920427729826	dai4	substitute/replace/generation/dynasty/geological era/era/age/period
+175	内	231331	53.039976151813	nei4	inside/inner/internal/within/interior
+176	信	230248	53.158964895499	xin4	letter/true/to believe/sign/evidence
+177	表	226768	53.276155226916	biao3	surface/exterior/to watch/to show/express/an example/a list or table/a meter/a watch/chart/external
+178	化	224729	53.392291833444	hua4	to make into/to change into/-ization/to ... -ize/to transform
+179	老	223050	53.507560757731	lao3	(a prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family to indicate affection or familiarity)/old (of people)
+180	给	217815	53.620124311837	gei3/ji3	to/for/for the benefit of/to give/to allow/to do sth (for sb)/(passive particle), to supply/provide
+181	世	214990	53.731227947939	shi4	life/age/generation/era/world/lifetime
+182	位	214983	53.842327966544	wei4	position/location/(measure word for persons)/place/seat
+183	次	214857	53.953362870222	ci4	nth/number (of times)/order/sequence/next/second(ary)/(measure word)
+184	度	214376	54.064149200251	du4	capacity/degree/standard
+185	门	212769	54.174105056568	men2	opening/door/gate/doorway/gateway/valve/switch/way to do something/knack/family/house/(religious) sect/school (of thought)/class/category/phylum or division (taxonomy)
+186	任	212485	54.283914145907	ren4	to assign/to appoint/office/responsibility
+187	常	212309	54.393632281062	chang2	always/ever/often/frequently/common/general/constant
+188	先	210628	54.502481700406	xian1	early/prior/former/in advance/first
+189	海	209302	54.610645862661	hai3	ocean/sea
+190	通	209046	54.718677727922	tong1	go through/know well/to connect/to communicate/open
+191	教	208875	54.826621222925	jiao1/jiao4	teach, religion/teaching
+192	儿	207827	54.934023127106	er2/er	son, non-syllabic dimi. suff.
+193	原	207579	55.041296868575	yuan2	former/original/primary/raw/level/cause/source
+194	东	206238	55.147877601177	dong1	east
+195	声	206083	55.254378232084	sheng1	sound/voice/(a measure word, used for sounds)/tone/noise
+196	提	205159	55.360401353526	di1/ti2	carry (suspended), to carry/to lift/to put forward/(upwards character stroke)/lifting (brush stroke in painting)/to mention
+197	立	204985	55.466334554355	li4	set up/to stand
+198	及	202671	55.571071914383	ji2	to reach/and
+199	比	200645	55.674762267727	bi3/bi4	(particle used for comparison and "-er than")/to compare/to contrast/to gesture (with hands)/ratio, associate with/be near
+200	员	200217	55.778231437034	yuan2	person/employee/member
+201	解	200090	55.881634974629	jie3/jie4/xie4	to separate/to divide/to break up/to loosen/to explain/to untie/to emancipate, transport under guard, (surname)
+202	水	198933	55.984440591823	shui3	water/river
+203	名	198481	56.087012622136	ming2	name/(measure word for persons)/place (e.g. among winners)
+204	真	198416	56.189551061415	zhen1	real/true/genuine
+205	论	197165	56.291443002491	lun2/lun4	the Analects (of Confucius), by the/per/discuss/theory/to talk (about)/to discuss
+206	处	194237	56.391821796693	chu3/chu4	to reside/to live/to dwell/to be in/to stay/get along with/to be in a position of/deal with, a place/location/spot/point/office/department/bureau/respect
+207	走	193619	56.491881217681	zou3	to walk/to go/to move
+208	义	193507	56.591882758734	yi4	justice/righteousness/meaning
+209	各	193435	56.691847091258	ge4	each/every
+210	入	192433	56.791293605076	ru4	to enter
+211	几	192355	56.890699809655	ji1/ji3	small table, almost, a few/how many, how much/how many/several/a few
+212	口	191936	56.989889481261	kou3	mouth/(a measure word)
+213	认	191866	57.089042977909	ren4	to recognize/to know/to admit
+214	条	191280	57.187893638467	tiao2	measure word for long, thin things (i.e. ribbon, river, etc.)/a strip/item/article
+215	平	191267	57.286737580819	ping2	flat/level/equal/to make the same score/to tie/to draw/calm/peaceful
+216	系	190769	57.385324164173	xi4	be/connection/relation/tie up/bind, be/system/to tie/department/faculty, connect/to tie
+217	气	190687	57.483868371147	qi4	air/anger/gas, gas/air/smell/weather/vital breath/to make sb. angry/to get angry/to be enraged
+218	题	189921	57.582016720707	ti2	topic/subject/to inscribe/to superscribe
+219	活	189876	57.680141814936	huo2	to live/alive/living/work/workmanship
+220	尔	189785	57.778219881718	er3	thus/so/like that/you/thou
+221	更	187378	57.875054046681	geng1/geng4	to change, more/even more/further/still/still more
+222	别	186634	57.971503723504	bie2/bie4	leave/depart/separate/distinguish/classify/other/another/do not/must not/to pin, contrary/difficult/awkward
+223	打	186146	58.067701209181	da2/da3	dozen, beat/strike/break/mix up/build/fight/fetch/make/tie up/issue/shoot/calculate/since/from
+224	女	185188	58.163403614699	nu:3/nv3	female/woman
+225	变	185121	58.259071395613	bian4	to change/to become different/to transform/to vary/rebellion
+226	四	184874	58.354611530599	si4	four/4
+227	神	184554	58.449986294341	shen2	God/unusual/mysterious/soul/spirit/divine essence/lively/spiritual being
+228	总	184470	58.545317648133	zong3	always/to assemble/gather/total/overall/head/chief/general/in every case
+229	何	184335	58.640579235931	he2	carry/what/how/why/which
+230	电	183834	58.735581914377	dian4	electric/electricity/electrical
+231	数	183312	58.830314830982	shu3/shu4/shuo4	to count, number/figure/to count/to calculate/several, frequently/repeatedly
+232	安	183210	58.924995035504	an1	content/calm/still/quiet/to pacify/peace
+233	少	183018	59.019576017279	shao3/shao4	few/little/lack, young
+234	报	182411	59.113843310478	bao4	to announce/to inform/report/newspaper/recompense/revenge
+235	才	181725	59.207756089075	cai2	ability/talent/endowment/gift/an expert/only (then)/only if/just, just/not until
+236	结	181674	59.30164251163	jie1/jie2	knot/sturdy/to bear (fruit)/bond/to tie/to bind
+237	反	181385	59.395379583281	fan3	wrong side out or up/anti-
+238	受	180928	59.488880484125	shou4	to bear/to stand/to endure/(passive marker)/to receive
+239	目	180827	59.582329189671	mu4	eye/item/section/list/catalogue/table of contents/order (taxonomy)/goal/name/title
+240	太	180490	59.675603738626	tai4	highest/greatest/too (much)/very/extremely
+241	量	180008	59.768629197147	liang2/liang4	to measure, capacity/quantity/amount/to estimate
+242	再	179607	59.861447424828	zai4	again/once more/re-/second/another
+243	感	178383	59.953633107505	gan3	to feel/to move/to touch/to affect
+244	建	178289	60.045770212379	jian4	to establish/to found/to set up/to build/to construct
+245	务	176085	60.136768322816	wu4	affair/business/matter
+246	做	175580	60.22750545676	zuo4	to do/to make/to produce
+247	接	175473	60.318187294695	jie1	to extend/to connect/to receive/to join
+248	必	174963	60.408605572211	bi4	certainly/must/will/necessarily
+249	场	173632	60.498336008713	chang3	a courtyard/open space/place/field/a measure word/(a measure word, used for sport or recreation)
+250	件	172895	60.58768557457	jian4	a measure word for thing, clothes, item
+251	计	171949	60.676546261691	ji4	to calculate/to compute/to count/reckon/ruse/to plan
+252	管	170746	60.764785256294	guan3	to take care (of)/to control/to manage/to be in charge of/to look after/to run/tube/pipe
+253	期	169806	60.85253847287	qi1	a period of time/phase/stage/(used for issue of a periodical, courses of study)/time/term/period/to hope
+254	市	169522	60.940144922469	shi4	market/city
+255	直	169439	61.027708478901	zhi2	straight/vertical/frank/directly/straightly/upright
+256	德	168917	61.115002273493	de2	Germany/virtue/goodness/morality/ethics/kindness/favor/character/kind
+257	资	168890	61.202282114886	zi1	resources/capital/to provide/to supply/to support/money/expense
+258	命	168358	61.289287026588	ming4	life/fate
+259	山	168142	61.3761803127	shan1	mountain/hill
+260	金	167912	61.462954738232	jin1	metal/money/gold
+261	指	166865	61.549188089727	zhi3	finger/to point/to direct/to indicate
+262	克	166044	61.634997160627	ke4	gram/subdue/to restrain/to overcome, subdue
+263	许	166034	61.720801063676	xu3	to allow/to permit/to praise/(surname)
+264	统	165820	61.806494374706	tong3	to gather/to unite/to unify/whole
+265	区	164775	61.89164764527	ou1/qu1	Ou (surname), area/region/district/small/distinguish
+266	保	164424	61.976619524252	bao3	to defend/to protect/to insure or guarantee/to maintain/hold or keep/to guard
+267	至	163582	62.06115627015	zhi4	arrive/most/to/until
+268	队	162938	62.145360206422	dui4	squadron/team/group
+269	形	162049	62.229104720709	xing2	to appear/to look/form/shape
+270	社	159527	62.311545902887	she4	society/group
+271	便	159479	62.393962279378	bian4/pian2	ordinary/plain/convenient/handy/easy/then/so/thus/to relieve oneself, advantageous/cheap
+272	空	158539	62.475892877842	kong1/kong4	air/sky/empty/in vain, emptied/leisure
+273	决	157959	62.557523740928	jue2	breach (a dyke)/to decide/to determine
+274	治	156904	62.638609395697	zhi4	to rule/to govern/to manage/to control/to harness (a river)/cure/treatment/to heal
+275	展	156759	62.719620116622	zhan3	to use/to spread out/to postpone/to unfold
+276	马	155772	62.800120770619	ma3	horse/horse chess piece/Surname
+277	科	155750	62.880610055343	ke1	branch of study/administrative section/division/field/branch/stage directions/family (taxonomy)/rules/laws/to mete out (punishment)/to levy (taxes, etc.)/to fine somebody
+278	司	155229	62.960830095011	si1	company/control
+279	五	154316	63.040578309852	wu3	five/5
+280	基	153462	63.119885190188	ji1	base/foundation/basic/radical (chem.)
+281	眼	152079	63.198477356682	yan3	eye
+282	书	151357	63.276696404309	shu1	book/letter
+283	非	149915	63.354170247772	fei1	non-/not-/un-
+284	则	149042	63.431192937813	ze2	(expresses contrast with a previous sentence or clause)/standard/norm/rule/to imitate/to follow/then/principle
+285	听	148988	63.508187721456	ting1/ting4	listen/hear/obey, let/allow
+286	白	148728	63.585048140964	bai2	white/snowy/empty/blank/bright/clear/plain/pure/gratuitous
+287	却	148679	63.661883238001	que4	but/yet/however/while/to go back/to decline/to retreat/nevertheless
+288	界	148438	63.73859378982	jie4	boundary/scope/extent/circles/group/kingdom (taxonomy)
+289	达	147907	63.815029928733	da2	attain/pass through/achieve/reach/realize/clear/inform/notify/dignity
+290	光	147639	63.891327569229	guang1	light/ray/bright
+291	放	147600	63.967605055105	fang4	to release/to free/to let go/to put/to place/to let out
+292	强	146665	64.043399346881	qiang2	strength/force/power/powerful/better
+293	即	146459	64.119087180918	ji2	namely/right away/to approach/to draw near
+294	像	145291	64.194171409919	xiang4	(look) like/similar (to)/appearance/to appear/to seem/image/portrait/resemble/seem
+295	难	144597	64.268896990036	nan2/nan4	difficult (to...)/problem/difficulty/difficult/not good, disaster/distress/to scold
+296	且	144597	64.343622570153	qie3	further/moreover
+297	权	144506	64.418301122822	quan2	authority/power/right
+298	思	144503	64.492978125136	si1	to think/to consider
+299	王	143948	64.567368311701	wang2	king/Wang (proper name)
+300	象	143453	64.641502689624	xiang4	shape/form/appearance/elephant/image under a map (math.)
+301	完	143120	64.715464978097	wan2	to finish/to be over/whole/complete/entire
+302	设	142742	64.789231921789	she4	to set up/to arrange/to establish/to found/to display
+303	式	142292	64.86276631217	shi4	type/form/pattern/style
+304	色	142231	64.936269178659	se4/shai3	color/look/appearance, color/dice
+305	路	141812	65.009555512175	lu4	(surname)/road/path/way
+306	记	139501	65.081647555246	ji4	to remember/to note/mark/sign/to record
+307	南	139078	65.153520998205	nan2	south
+308	品	138528	65.225110209339	pin3	conduct/grade/thing/product/good
+309	住	138503	65.296686500846	zhu4	to live/to dwell/to reside/to stop
+310	告	138285	65.368150133193	gao4	to tell/to inform/to say
+311	类	138280	65.439611181614	lei4	kind/type/class/category/similar/like/to resemble
+312	求	138216	65.511039155786	qiu2	to seek/to look for/to request/to demand/to beseech
+313	据	137990	65.582350336519	ju1/ju4	sickness of hand, act in accordance with/seize, according to/to act in accordance with/to depend on/to seize/to occupy
+314	程	136962	65.653130262132	cheng2	rule/order/regulations/formula/journey/procedure/sequence/a surname
+315	北	136939	65.723898301688	bei3	north
+316	边	136277	65.794324229484	bian1	side/edge/margin/border/boundary
+317	死	136194	65.864707264115	si3	to die/inpassable/uncrossable/inflexible/rigid
+318	张	136087	65.935035002736	zhang1	(a measure word)/(a surname)/open up
+319	该	136053	66.005345170662	gai1	that/the above-mentioned/most likely/to deserve/should/ought to/owe
+320	交	135727	66.075486866634	jiao1	to deliver/to turn over/to make friends/to intersect (lines)/to pay (money)
+321	规	134528	66.14500893723	gui1	compass/rule
+322	万	134220	66.214371838005	wan4	Wan (surname)/ten thousand/a great number
+323	取	134102	66.283673758134	qu3	to take/to get/to choose/to fetch
+324	拉	134051	66.35294932222	la1	to pull/to play (string instruments)/to drag/to draw
+325	格	133986	66.422191295273	ge2	frame/rule
+326	望	133145	66.490998652028	wang4	hope/expect/to visit/to gaze (into the distance)/look towards/towards
+327	觉	132041	66.559235477994	jiao4/jue2	a nap/a sleep, feel/find that/thinking/awake/aware
+328	术	131634	66.62726197241	shu4/zhu2	method/technique, Atractylis lancea var. ovata
+329	领	130993	66.694957207555	ling3	neck/collar/to lead/to receive
+330	共	128824	66.761531535743	gong4	all together/in while/to share/common/general/together
+331	确	128417	66.827895532381	que4	authenticated/solid/firm, authenticated/solid/firm/real/true
+332	传	128186	66.894140151653	chuan2/zhuan4	to pass on/to spread/to transmit/to infect/to transfer/to circulate/to pass on/to conduct (electricity), biography
+333	师	128086	66.960333092412	shi1	a division (milit.)/teacher/master/expert/model
+334	观	127796	67.026376165481	guan1/guan4	to look at/to watch/to observe/to behold, Taoist monastery
+335	清	127716	67.09237789574	qing1	clear/distinct/complete/pure
+336	今	126624	67.157815296631	jin1	today/modern/present/current/this/now
+337	切	126391	67.223132286586	qie1/qie4	to cut/to slice, close to
+338	院	126115	67.288306643844	yuan4	courtyard/institution
+339	让	125660	67.353245863866	rang4	to ask/to let/permit/have (someone do something)/to yield/to allow
+340	识	125220	67.417957698429	shi2/zhi4	to know/knowledge, to record/write a footnote
+341	候	124865	67.482486074268	hou4	wait
+342	带	124619	67.546887320965	dai4	band/belt/girdle/ribbon/area/zone/region/wear/carry/lead/bring/consists of/show/and
+343	导	124463	67.611207949181	dao3	to transmit/to lead/to guide/to conduct/to direct
+344	争	124420	67.675506355635	zheng1	struggle/fight
+345	运	123903	67.739537584176	yun4	to move/to transport/to use/to apply/fortune/luck/fate
+346	笑	122902	67.803051510796	xiao4	laugh/smile
+347	飞	122290	67.866249164914	fei1	to fly
+348	风	121803	67.929195144671	feng1	wind/news/style/custom/manner
+349	步	121267	67.991864127597	bu4	a step/a pace/walk/march/stages in a process
+350	改	121023	68.054407014949	gai3	to change/to alter/to transform/to correct
+351	收	120897	68.116884787374	shou1	to receive/to accept/to collect/in care of (used on address line after name)
+352	根	120778	68.179301062369	gen1	radical (chem.)/root/basis
+353	干	120564	68.241606745344	gan1/gan4	dry/to concern/shield, to work/to do/to manage, manage/stem
+354	造	120496	68.303877286931	zao4	to make/to build/to invent/to manufacture
+355	言	120308	68.366050672912	yan2	to speak/to say/talk/word
+356	联	120301	68.428220441397	lian2	to ally/to unite/to join
+357	持	119990	68.490229489705	chi2	to grasp/to hold/support/manage/direct/maintain
+358	组	119734	68.552106241019	zu3	to form/compose/make up/group/to organize/cord
+359	每	119594	68.613910642414	mei3	each/every
+360	济	119161	68.675491275845	ji4	aid/ferry/frugal
+361	车	118824	68.736897752686	che1/ju1	car/a vehicle/machine/to shape with a lathe, vehicle on land
+362	亲	118451	68.798111468672	qin1/qing4	dear/intimate/parent/relation/closely related, parents-in-law of one's offspring
+363	极	117736	68.858955683287	ji2	extremely/pole (geography, physics)/utmost/top
+364	林	117675	68.919768374009	lin2	woods/forest
+365	服	116961	68.980212080144	fu2	clothes/dress/garment/submit/take (medicine)
+366	快	116923	69.040636148444	kuai4	fast/quick/swift
+367	办	116904	69.101050397827	ban4	to do/to manage/to handle/to go about/to run/to set up/to deal with
+368	议	116810	69.161416069407	yi4	criticize/discuss
+369	往	116539	69.221641692215	wang3/wang4	to go (in a direction)/past/previous/towards, toward/(of a train) bound for
+370	元	116488	69.281840958982	yuan2	(dynasty)/dollar/primary/first
+371	英	116193	69.341887774134	ying1	(surname)/English/brave
+372	士	115704	69.401681881355	shi4	scholar/warrior/knight
+373	证	115610	69.461427410773	zheng4	prove, confirm, verify/proof, certificate/proof/to prove/to demonstrate/to confirm/certificate/proof
+374	近	115441	69.521085603504	jin4	near/close (to)/approximately
+375	失	115346	69.580694701647	shi1	to lose/to miss/to fail
+376	转	115087	69.64016995244	zhuan3/zhuan4	to convey/to forward (mail)/to transfer/to turn/to shift, to revolve/to turn/to circle about/to walk about
+377	夫	114784	69.699488617337	fu1	porter, husband/man
+378	令	114570	69.758696690215	ling4	make or cause to be/order/command/decree/honorable
+379	准	113877	69.817546630996	zhun3	to allow/to grant/to permit/accurate/standard, accurate/standard
+380	布	113652	69.87628029512	bu4	diffuse/extend/notify, to declare/to announce/to spread/to make known/spread/(cotton) cloth
+381	始	112987	69.93467029713	shi3	begin
+382	怎	112294	69.992702167042	zen3	how
+383	呢	112185	70.050677707375	ne/ni2	(question particle), woolen material
+384	存	110970	70.108025353768	cun2	exist/deposit/store/keep/survive
+385	未	110491	70.165125460082	wei4	1-3 p.m./8th earthly branch/not yet/did not/have not/not
+386	远	110455	70.222206962131	yuan3	far/distant/remote
+387	叫	110131	70.279121025797	jiao4	to (be) call(ed)
+388	台	109362	70.335637681694	tai2	surname/(classical) you (in letters)/platform/Taiwan (abbr.), desk/platform, (measure word)/platform/stage/terrace/stand/support/desk/station/broadcasting station, typhoon
+389	单	109359	70.392152787236	chan2/dan1/shan4	chieftain, bill/list/form/single/only/sole, (surname)
+390	影	108862	70.448411050565	ying3	picture/image/reflection/shadow
+391	具	108811	70.504642957853	ju4	tool/device/utensil/equipment/instrument
+392	罗	108376	70.560650063607	luo1/luo2	fussy/talkative, subordinate in a gang of bandits, (surname)/gauze/to collect/to gather/to catch/to shift
+393	字	108218	70.61657551731	zi4	letter/symbol/character/word
+394	爱	108167	70.672474614972	ai4	to love/affection/to be fond of/to like
+395	击	107513	70.728035735155	ji1	to hit/to strike/to break
+396	流	107397	70.783536908262	liu2	to flow/to spread/to circulate/to move
+397	备	107114	70.838891831176	bei4	to prepare/get ready/to provide or equip
+398	兵	106982	70.894178538453	bing1	soldiers/a force/an army/weapons/arms/military/warlike
+399	连	106814	70.949378425827	lian2	(surname)/even/as/join/to link/successively
+400	调	106379	71.004353511667	diao4/tiao2	mode (music)/to move (troops)/tune/tone/melody/to transfer, harmonize/reconcile/blend/suit well/provoke/incite
+401	深	105924	71.059093460271	shen1	deep/profound
+402	商	105406	71.113565714176	shang1	commerce/consult
+403	算	105293	71.16797957136	suan4	regard as/to figure/to calculate/to compute
+404	质	104560	71.22201462504	zhi4	hostage/substance/nature/quality
+405	团	104151	71.2758383136	tuan2	regiment/round/circular/group/society, dumpling
+406	集	104019	71.329593786523	ji2	to gather/to collect/collected works
+407	百	103938	71.383307399849	bai3	hundred
+408	需	103832	71.436966233952	xu1	to require/to need/to want/necessity/need
+409	价	103634	71.490522744597	jia4/jie	price/value/valence (on an atom), great/good/middleman/servant
+410	花	103367	71.543941273612	hua1	flower/blossom/to spend (money, time)/fancy pattern
+411	党	103165	71.59725541203	dang3	party, party/association/club/society
+412	华	103158	71.650565932951	hua2/hua4	(abbreviation for) China/(surname) Hua/magnificent/splendid/flowery, (surname)/name of a mountain
+413	城	102833	71.703708498704	cheng2	city walls/city/town
+414	石	102149	71.756497583425	dan4/shi2	10 pecks, rock/stone
+415	级	102018	71.809218969293	ji2	level/grade/rank/step
+416	整	100910	71.861367757232	zheng3	exactly/in good order/whole/complete/entire/in order/orderly
+417	府	100771	71.913444712037	fu3	prefecture/mansion
+418	离	100744	71.965507713643	li2	to leave/to depart/to go away/from
+419	况	100680	72.017537641001	kuang4	moreover/situation
+420	亚	100251	72.069345867536	ya4	Asia/Asian/second/next to/inferior
+421	请	100226	72.121141174443	qing3	to ask/to invite/please (do sth)/to treat (to a meal, etc)/to request
+422	技	99790	72.172711163031	ji4	skill
+423	际	99412	72.224085806838	ji4	border/edge/boundary/between/among/interval/while
+424	约	99148	72.27532401937	yao1/yue1	weigh, appointment/agreement/to arrange/to restrict/approximately
+425	示	98963	72.326466626652	shi4	to show/reveal
+426	复	98822	72.377536367229	fu4	again/recover/reply to a letter/to repeat/to duplicate, repeat, double, overlap
+427	病	98692	72.42853892574	bing4	ailment/sickness/illness/disease/fall ill/sick/defect
+428	息	98447	72.479414871892	xi1	news/interest/breath/rest
+429	究	98377	72.530254643084	jiu1	after all/to investigate/to study carefully
+430	线	98261	72.581034467202	xian4	thread/string/wire/line
+431	似	98057	72.631708867151	si4	to seem/to appear/similar/like/to resemble
+432	官	97897	72.682300581479	guan1	official/government
+433	火	97760	72.732821496244	huo3	fire
+434	断	97235	72.783071098813	duan4	absolutely/decidedly (in negative constructions)/break/to judge
+435	精	97135	72.833269022869	jing1	energy/perfect/excellent/refined/very/proficient
+436	满	96954	72.883373408815	man3	Manchurian/to fill/to fulfill/filled/packed
+437	支	96814	72.933405444842	zhi1	(a measure word)/to support/to sustain/to erect/to raise/branch/division/to draw money
+438	视	96326	72.983185289724	shi4	to look at/to regard/to inspect
+439	消	96263	73.032932577142	xiao1	consume/news/subside/to disappear/to vanish
+440	越	95657	73.082366692768	yue4	to exceed/to climb over/to surpass/the more ... the more
+441	器	95444	73.131690733161	qi4	device/tool/utensil
+442	容	95407	73.180995652504	rong2	to hold/to contain/to allow/appearance/look/countenance
+443	照	95020	73.230100575999	zhao4	according to/in accordance with/to shine/to illuminate/to reflect/photograph
+444	须	94903	73.279145035634	xu1	beard/necessary/must, beard/mustache
+445	九	94580	73.328022573671	jiu3	nine/9
+446	增	93869	73.376532677476	zeng1	to increase/to expand/to add
+447	研	93761	73.424986968488	yan2	grind fine/study/research
+448	写	93710	73.473414903457	xie3	to write
+449	称	93638	73.521805629897	chen4/cheng1/cheng4	balanced/to fit/well-off/suitable, to call/to praise/to weigh/to estimate/to consider/to call/to address/to name/to say/commend, steelyard
+450	企	93453	73.570100751086	qi3	plan a project/stand on tiptoe
+451	八	92700	73.618006733069	ba1	eight/8
+452	功	92052	73.665577838286	gong1	merit/achievement/result/service/accomplishment
+453	吗	91639	73.712935511241	ma3/ma	morphine, (question tag)
+454	包	91240	73.760086986928	bao1	to cover/to wrap/to hold/to include/to take charge of/package/wrapper/container/bag/to hold or embrace/bundle/packet/to contract (to or for)
+455	片	90559	73.806886531938	pian1/pian4	disc/sheet, a slice/piece/flake/thin/slice
+456	史	90469	73.853639566285	shi3	history
+457	委	90263	73.900286142895	wei1/wei3	crooked, give up/indeed/to commission
+458	乎	90127	73.946862436727	hu1	(interrog. part.)
+459	查	90039	73.993393253467	cha2/zha1	to research/to check/to investigate/to examine/to refer to/to search, (surname)
+460	轻	89852	74.039827431387	qing1	light/easy/gentle/soft/reckless/unimportant/frivolous/small in number/unstressed/neutral/soft
+461	易	89730	74.08619856152	yi4	(surname)/change/easy/simple
+462	早	89623	74.132514395644	zao3	early/morning
+463	曾	89328	74.178677778153	ceng2/zeng1	(refers to something that happened previously)/already/at some time in the past/before/once, (surname)/great-grand (father)
+464	除	89272	74.224812220695	chu2	remove/do away with/wipe out/divide/except
+465	农	88412	74.270502228021	nong2	agriculture
+466	找	88247	74.3161069658	zhao3	to try to find/to look for/to call on (sb)/to find/to seek/to return/to look for
+467	装	88143	74.361657957924	zhuang1	adornment/adorn/costume/dress/clothing
+468	广	87900	74.407083371261	guang3	wide/numerous/to spread
+469	显	87825	74.452470025713	xian3	prominent/conspicuous
+470	吧	87536	74.497707329261	ba1/ba	(onomat.)/dumb, (modal particle indicating polite suggestion)/...right?/...OK?
+471	阿	87159	74.542749804813	a1/a4/a/e1	an initial particle/prefix to names of people, (phonetic character), (final part.)/(interj.), flatter
+472	李	86593	74.587499779979	li3	(a surname)/plum
+473	标	86324	74.632110739943	biao1	the topmost branches of a tree/surface/sign/to mark/(outward) sign/indication/prize/award/bid
+474	谈	86089	74.676600255401	tan2	to speak/to talk/to converse/to chat/to discuss/(surname)
+475	吃	85976	74.721031374139	chi1/ji2	eat/eradicate/destroy/receive, eat, stammer
+476	图	85957	74.765452673959	tu2	diagram/to plan/picture/drawing/chart
+477	念	85953	74.809871906639	nian4	read aloud, to read aloud
+478	六	85830	74.854227574747	liu4	six/6
+479	引	85740	74.898536732193	yin3	to lead/to divert (water)/to guide
+480	历	85487	74.942715143	li4	calendar, to experience/to undergo/to pass through/all/each/every/calendar
+481	首	85036	74.986660483712	shou3	head/chief/first (occasion)/first (thing)/measure word for poems
+482	医	84620	75.030390841807	yi1	medical/medicine/doctor/to cure/to treat
+483	局	84587	75.074104145992	ju2	narrow, (a measure word used for games) set or round office/situation/office
+484	突	84474	75.117759053458	tu1	to dash/to move forward quickly
+485	专	84361	75.161355564203	zhuan1	for a particular person, occasion, purpose/focused on one thing/special/expert/particular (to sth)/concentrated/specialized, concentrated/specialized
+486	费	84359	75.204951041378	fei4	to cost/to spend/fee/wasteful/expenses/(surname)
+487	号	84335	75.24853411571	hao2/hao4	roar/cry, day of a month/(suffix used after) name of a ship/(ordinal) number
+488	尽	84270	75.292083599008	jin3/jin4	to the utmost, to use up/to exhaust/to end/to finish/to the utmost/exhausted/finished/to the limit (of sth)
+489	另	83702	75.33533954835	ling4	other/another/separate/separately
+490	周	83366	75.378421857886	zhou1	(surname)/complete/encircle/circuit/lap/week/cycle/all/every/attentive/thoughtful, bestow alms, cycle/week
+491	较	82870	75.421247841996	jiao4	clear/distinct/compare/comparatively
+492	注	82869	75.46407330932	zhu4	to inject/to pour into/to concentrate/to pay attention/to note/to comment on/to record/to register/to annotate, annotate
+493	语	82805	75.506865702396	yu3/yu4	dialect/language/speech, tell to
+494	仅	82729	75.549618819801	jin3	barely/only/merely
+495	考	82688	75.592350749016	kao3	to check/to verify/to test/to examine
+496	落	82641	75.63505838933	la4/luo4	leave behind, alight/to fall/to drop (behind)
+497	青	82619	75.677754660371	qing1	green (blue, black)
+498	随	82599	75.720440595709	sui2	to follow/to comply with/to allow/(surname)
+499	选	82498	75.763074335748	xuan3	to choose/to pick/to select/to elect
+500	列	82418	75.805666732977	lie4	to arrange/to line up/row/file/series
+501	武	81863	75.847972314456	wu3	martial/military
+502	红	81852	75.890272211298	hong2	bonus/popular/red/revolutionary
+503	响	81702	75.932494590371	xiang3	to make a sound/to sound/to ring/(a measure word for sound)/loud
+504	虽	81097	75.974404314437	sui1	although/even though
+505	推	80933	76.01622928574	tui1	push/refuse (responsibility)/shove
+506	势	80705	76.057936430033	shi4	conditions/influence/tendency
+507	参	80663	76.099621869351	can1/shen1	take part in/participate/join/attend/to join/unequal/varied/irregular/to counsel/uneven/not uniform, ginseng
+508	希	80460	76.141202401286	xi1	rare/infrequent
+509	古	80454	76.18277983251	gu3	ancient/old
+510	众	80390	76.224324189485	zhong4	multitude
+511	构	80364	76.265855110047	gou4	Broussonetia papyrifera/to construct/to form/to make up/to compose
+512	房	80320	76.307363292064	fang2	house
+513	半	80183	76.348800674516	ban4	half/semi-/incomplete/(after a number) and a half/half
+514	节	80074	76.390181727389	jie2/jie1	festival/section/segment/point/part/to economize/to save/temperate
+515	土	79809	76.431425832202	tu3	earth/dust
+516	投	79708	76.472617741715	tou2	to throw/to send
+517	某	79482	76.513692857789	mou3	(used before measure word and noun) some/(a) certain/so and so
+518	案	79395	76.554723013555	an4	(legal) case/incident/record/file/table
+519	黑	78896	76.59549529354	hei1	black/dark
+520	维	78877	76.636257754606	wei2	to preserve/to maintain/to hold together/dimension
+521	革	78685	76.676920992927	ge2	leather/remove
+522	划	78648	76.717565110198	hua2/hua4	to row, to delimit/to transfer/to assign/to differentiate/to mark off/to draw (a line)/to delete/stroke of a Chinese character
+523	敌	78620	76.758194757486	di2	enemy/match
+524	致	78238	76.798626992851	zhi4	fine and close, to send/to devote/to deliver/to cause/to convey
+525	陈	77914	76.838891789834	chen2	arrange/exhibit/narrate/tell/old/stale/a surname/to state/to display/to explain/(surname)
+526	律	77818	76.879106975443	lu:4/lv4	law
+527	足	77385	76.919098393089	zu2	foot/to be sufficient
+528	态	77219	76.959004024402	tai4	attitude
+529	护	76993	76.998792862275	hu4	protect
+530	七	76766	77.038464389923	qi1	seven/7
+531	兴	76760	77.07813281686	xing1/xing4	flourish/it is the fashion to/to become popular, interest
+532	派	76750	77.117796075945	pai4	clique/school/group/faction/to dispatch
+533	孩	76620	77.157392152963	hai2	child
+534	验	76542	77.19694792074	yan4	to examine/to test/to check
+535	责	76377	77.236418418971	ze2	duty/responsibility/to reproach/to blame
+536	营	76372	77.275886333275	ying2	army/to deal in/to trade/to operate/to run/camp/nourishment/to manage
+537	星	76320	77.315327374752	xing1	star/satellite/small amount
+538	够	76181	77.354696583096	gou4	to reach/to be enough
+539	章	76098	77.394022898274	zhang1	(surname)/chapter/seal/section
+540	音	76043	77.433320790269	yin1	sound/noise/news
+541	跟	75958	77.472574755528	gen1	to follow/to go with/heel/with/and
+542	志	75904	77.511800814389	zhi4	the will, sign/mark/to record/write a footnote
+543	底	75728	77.550935919067	de/di3	(possessive part.)/(subor. part.), background/bottom/base
+544	站	75402	77.589902551791	zhan4	station/to stand/to halt/to stop
+545	严	75278	77.628805103158	yan2	(air or water) tight/stern/serious/strict/severe
+546	巴	74917	77.667521095092	ba1	(suff. for certain nouns)/to hope/to wish/Palestinian, Palestine (abbrev.)/Pakistan (abbrev.)/Pascal (unit of pressure)
+547	例	74579	77.70606241365	li4	example/precedent/rule/case/instance
+548	防	74459	77.744541717992	fang2	to protect/to defend/to guard (against)
+549	族	74174	77.78287373857	zu2	race/nationality/ethnicity/clan
+550	供	74168	77.821202658438	gong1/gong4	offer (information etc.)/supply, offer/sacrificial offering/trial statement/confession
+551	效	74009	77.859449409469	xiao4	imitate, effect/efficacy/imitate
+552	续	73927	77.897653784119	xu4	continue/replenish
+553	施	73861	77.935824050951	shi1	(surname)/distribute (alms)/to do/to execute/to carry out
+554	留	73287	77.973697683115	liu2	leave (message)/to retain/to stay/to remain/to keep/to preserve
+555	讲	73220	78.011536690675	jiang3	to talk/speech/to speak/to tell/to explain
+556	型	73216	78.049373631094	xing2	model
+557	料	72778	78.086984219625	liao4	material/stuff/grain/feed/to expect/to anticipate/to guess
+558	终	72533	78.124468195797	zhong1	end/finish
+559	答	72421	78.161894292035	da1/da2	to answer/agree, reply/answer/return/respond/echo
+560	紧	72300	78.199257857271	jin3	tight/nervous/strict
+561	黄	72199	78.236569227208	huang2	(surname)/sulfur/yellow
+562	绝	72074	78.273815999004	jue2	cut short/extinct/to disappear/to vanish/absolutely/by no means
+563	奇	71919	78.310982669104	ji1/qi2	odd (Num), strange/odd/weird/wonderful
+564	察	71894	78.348136419576	cha2	examine/inquire/observe/inspect/look into/to examine
+565	母	71462	78.385066918869	mu3	female/mother
+566	京	71245	78.421885275788	jing1	capital/Beijing (abbrev.)
+567	段	71172	78.458665907392	duan4	(surname)/paragraph/section/segment
+568	依	70632	78.495167475024	yi1	according to/depend on/near to
+569	批	70580	78.531642169828	pi1	to ascertain/(measure word for batches, lots)/to act on/to criticize/to pass on
+570	群	70459	78.568054333631	qun2	crowd/flock/group
+571	项	70453	78.604463396724	xiang4	(surname)/back of neck/item/thing
+572	故	70067	78.640672980754	gu4	happening/instance/reason/cause/deceased/old
+573	按	69984	78.676839671619	an4	to press (with the hand)/to push/to control/to restrain/to check/pressing down (brush movement in painting)/according to/in the light of
+574	河	69687	78.712852877298	he2	river
+575	米	69668	78.74885626406	mi3	(measure word) meter/rice
+576	围	69641	78.784845697623	wei2	to circle/to surround
+577	江	69602	78.820814976566	jiang1	river
+578	织	69482	78.856722241292	zhi1	weave
+579	害	69462	78.892619170316	hai4	to do harm to/to cause trouble to/harm/evil/calamity
+580	斗	69456	78.928512998629	dou3/dou4	Chinese peck, to fight/to battle/to struggle/to incite, fight/incite
+581	双	69440	78.96439855838	shuang1	two/double/pair/both
+582	境	69360	79.000242775321	jing4	border/place/condition/boundary/circumstances/territory
+583	客	69108	79.035956762407	ke4	customer/visitor/guest
+584	纪	69045	79.07163819203	ji4	discipline/age/era/period/order/record
+585	采	68946	79.107268459924	cai3/cai4	to pick/to pluck/to collect/to select/to choose/to gather, affairs/gather, allotment to a feudal noble
+586	举	68924	79.142887358546	ju3	to lift/to hold up/to cite/to enumerate/to act/to raise/to choose/to elect
+587	杀	68776	79.178429772967	sha1	to kill/to murder/to slaughter
+588	攻	68747	79.21395720062	gong1	to attack/to accuse/to study
+589	父	68576	79.249396258015	fu4	father
+590	苏	68487	79.284789321532	su1	loquacious/nag, revive, (plant)/place name/revive
+591	密	68475	79.320176183628	mi4	secret/confidential/close/thick/dense
+592	低	68424	79.355536689683	di1	to lower (one's head)/to let droop/to hang down/low/to incline/beneath/low
+593	朝	68380	79.390874457191	chao2/zhao1	to face/towards/facing/direct/a dynasty/the imperial court/(abbr.) Korea, esp. N. Korea, morning
+594	友	68196	79.426117136234	you3	friend
+595	诉	68147	79.461334492806	su4	complain/sue/tell
+596	止	68082	79.496518258344	zhi3	to stop/toe
+597	细	67915	79.531615720765	xi4	fine/minutely/thin/slender
+598	愿	67915	79.566713183186	yuan4	sincere/willing, hope/wish/desire/ready/willing
+599	千	67843	79.601773437077	qian1	thousand, a swing
+600	值	67732	79.636776327818	zhi2	value/(to be) worth/to happen
+601	仍	67490	79.671654156556	reng2	still/yet/to remain
+602	男	67405	79.706488058558	nan2	male
+603	钱	67304	79.741269765261	qian2	(surname)/coin/money
+604	破	67268	79.7760328677	po4	to break/to split/broken/damaged/worn out
+605	网	67118	79.810718452368	wang3	net/network, a net
+606	热	67051	79.845369412433	re4	heat/to heat up/fervent/hot (of weather)/warm up
+607	助	66867	79.879925284032	zhu4	to help/to assist
+608	倒	66634	79.914360744695	dao3/dao4	to fall/to collapse/to topple/to change/to fail/bankrupt, upset/turn over/to tip/to pour/to go home/to the contrary/inverted
+609	育	66551	79.948753312192	yu4	nourish/to rear
+610	属	66374	79.98305440872	shu3/zhu3	belong to/category/be subordinate to/genus (taxonomy)/be born in the year of (one of the 12 animals)/family members/dependants, join together/fix one's attention on/concentrate on
+611	坐	66293	80.017313645653	zuo4	to sit/to take a seat/to take (a bus, airplane etc.)
+612	帝	66035	80.05143955202	di4	emperor
+613	限	66018	80.08555667304	xian4	limit/bound
+614	船	65883	80.119604028067	chuan2	a boat/vessel/ship
+615	脸	65727	80.153570764613	lian3	face
+616	职	65272	80.187302363923	zhi2	office/duty
+617	速	65094	80.220941975479	su4	fast/rapid/quick
+618	刻	65015	80.254540761009	ke4	quarter (hour)/(a measure word)/to carve/to engrave/to cut/oppressive
+619	乐	64965	80.288113707282	le4/yue4	(surname)/happy/laugh/cheerful, (surname)/music
+620	否	64772	80.321586914025	fou3/pi3	to negate/to deny/not, clogged/evil
+621	刚	64622	80.354982602997	gang1	hard/firm/strong/just/barely/exactly
+622	威	64559	80.388345734506	wei1	power/might/prestige
+623	毛	64522	80.421689744964	mao2	hair/pore/fur
+624	状	64495	80.455019802224	zhuang4	accusation/suit/state/condition/strong/great
+625	率	64453	80.488328154509	lu:4/shuai4/lv4	rate/frequency, to lead/command
+626	甚	64438	80.521628755016	shen4	very/extremely/more (than)
+627	独	64201	80.554806877447	du2	alone/independent/single/sole/only
+628	球	63913	80.587836165759	qiu2	ball/sphere
+629	般	63739	80.620775533457	ban1	sort/kind/class/way/manner
+630	普	63570	80.653627564467	pu3	general/popular/everywhere/universal
+631	怕	63520	80.686453756221	pa4	to be afraid/to fear
+632	弹	63417	80.719226719106	dan4/tan2	crossball/bullet/shot/shell/ball, impeach/to pluck a string/to play (a stringed musical instrument with fingers)
+633	校	63200	80.751887539617	jiao4/xiao4	proofread/to check/to compare, school
+634	苦	63194	80.784545259417	ku3	bitter/intensely/miserable/painful
+635	创	63156	80.817183341382	chuang1/chuang4	a wound/cut/injury/trauma, begin/initiate/inaugurate/start/create
+636	假	62691	80.849581118259	jia3/jia4	fake/false/artificial/to borrow/if/suppose, vacation
+637	久	62588	80.881925666267	jiu3	(long) time/(long) duration of time
+638	错	62401	80.914173575455	cuo4	mistake/error/blunder/fault/cross/uneven/wrong
+639	承	62285	80.946361537568	cheng2	to bear/to carry/to hold/to continue/to undertake/to take charge/owing to/due to/to receive
+640	印	62179	80.978494720456	yin4	stamp/seal/mark/print/India (abbrev.)
+641	晚	62142	81.010608782294	wan3	evening/night/late
+642	兰	61951	81.042624138172	lan2	orchid
+643	试	61912	81.074619339429	shi4	to test/to try/experiment/examination/test
+644	股	61861	81.106588184644	gu3	share/portion/section/part/thigh/(a measure word, e.g. use with electric current)/whiff
+645	拿	61798	81.138524472396	na2	to hold/to seize/to catch/to apprehend/to take
+646	脑	61647	81.170382725593	nao3	brain
+647	预	61534	81.202182582069	yu4	to advance/in advance/beforehand/to prepare
+648	谁	61528	81.233979337835	shei2/shui2	who, who
+649	益	60896	81.265449485395	yi4	benefit/increase
+650	阳	60867	81.296904646187	yang2	positive (electric.)/sun
+651	若	60736	81.328292108126	ruo4	to seem/like/as/if
+652	哪	60708	81.359665100081	na3/na/nei3	how/which, (final part. preceded by N), which (followed by M or Num)
+653	微	60484	81.390922332166	wei1	micro/tiny/miniature
+654	尼	60474	81.422174396399	ni2	Buddhist nun/(often used in phonetic spellings)
+655	继	60428	81.453402688517	ji4	to continue/to follow after/then/afterwards/to go on with/to succeed/to inherit
+656	送	60182	81.484503851491	song4	to deliver/to carry/to give (as a present)/to present (with)/to see off/to send
+657	急	60141	81.515583826275	ji2	hurried/worried
+658	血	59944	81.546561994387	xie3/xue4	blood, blood
+659	惊	59724	81.57742646977	jing1	to start/to be frightened/to be scared/alarm
+660	伤	59632	81.60824340092	shang1	injure/injury/wound
+661	素	59100	81.638785402379	su4	plain/element
+662	药	59090	81.669322235986	yao4	medicine/drug/cure
+663	适	58927	81.699774833616	shi4	to fit/to suit
+664	波	58859	81.730192289857	bo1	wave/ripple/storm/surge
+665	夜	58839	81.760599410396	ye4	night
+666	省	58642	81.790904724263	sheng3/xing3	frugal/save/to omit/to leave out/to save (money)/province, comprehend/introspect/visit
+667	初	58587	81.821181614947	chu1	at first/(at the) beginning/first/junior/basic
+668	喜	58449	81.851387189283	xi3	to be fond of/to like/to enjoy/to be happy/to feel pleased/happiness/delight/glad
+669	卫	58408	81.881571575428	wei4	to guard/to protect/to defend/(surname)
+670	源	58145	81.911620047083	yuan2	root/source/origin
+671	食	58110	81.941650431259	shi2/si4	animal feed/eat/food, to feed
+672	险	58047	81.971648257971	xian3	danger (ous)/rugged
+673	待	57757	82.001496216993	dai1/dai4	stay/delay, wait/treat/deal with/need/about/intending to do something
+674	述	57744	82.031337457809	shu4	to state/to tell/to narrate/to relate
+675	陆	57430	82.061016428093	liu4/lu4	six (fraud-proof), (surname)/shore/land/continent
+676	习	57329	82.090643203078	xi2	to practice/to study/habit
+677	置	57255	82.120231735963	zhi4	to install/to place/to put
+678	居	56307	82.149330356541	ju1	reside
+679	劳	56119	82.178331821513	lao2	toil
+680	财	56037	82.207290910104	cai2	money/wealth/riches/property/valuables
+681	环	55971	82.236215890876	huan2	bracelet/ring (not for finger)/to surround/to loop/loop
+682	排	55938	82.265123817739	pai2/pai3	a platoon/line up, row of logs or boards
+683	福	55871	82.293997119998	fu2	good fortune
+684	纳	55597	82.32272882313	na4	to accept/to pay (tax etc.)
+685	欢	55294	82.351303940366	huan1	joyous/happy/pleased
+686	雷	55226	82.379843916213	lei2	(surname)/thunder
+687	警	55189	82.40836477101	jing3	to alert/to warn
+688	获	55064	82.436821027665	huo4	to catch/to obtain/to capture, reap/harvest
+689	模	54891	82.465187880491	mo2	imitate/model/norm/pattern
+690	充	54812	82.493513907293	chong1	fill/satisfy/fulfill/to act in place of/substitute/sufficient/full
+691	负	54616	82.521738644207	fu4	lose/negative (math. etc.)/to bear/to carry (on one's back)
+692	云	54510	82.549908601898	yun2	(classical) to say, cloud/(abbr.) for Yunnan/surname
+693	停	54453	82.578049102836	ting2	to stop/to halt
+694	木	54433	82.606179268071	mu4	tree/wood
+695	游	54262	82.634221063048	you2	to walk/to tour/to roam/to swim/to travel, to roam/travel
+696	龙	54169	82.662214797007	long2	dragon/imperial/Long (a surname)
+697	树	54037	82.690140315329	shu4	tree
+698	疑	53982	82.718037410469	yi2	to doubt/to misbelieve/to suspect
+699	层	53705	82.745791356126	ceng2	a measure word for layers/laminated/repeated/floor/story (of a building)/layer/(math.) sheaf
+700	冷	53460	82.773418689425	leng3	cold
+701	洲	53429	82.801030002385	zhou1	continent/island
+702	冲	53378	82.828614959303	chong1/chong4	to rinse/to collide/to water/to rush/to dash (against)/to wash out/to charge/highway/public road, dash against, strong/powerful/forceful/dynamic/to punch, of great force/towards
+703	射	53184	82.856099659905	she4	radio- (chem.)/shoot
+704	略	53068	82.883524413431	lue4	plan/strategy/outline/summary/slightly/rather/to rob/to plunder/to summarize
+705	范	53033	82.910931079478	fan4	pattern/model/example/(surname)
+706	竟	53033	82.938337745524	jing4	unexpectedly/actually/to go so far as to/indeed
+707	句	52891	82.965671028082	ju4	(a measure word, for sentences or lines of verse)/sentence
+708	室	52846	82.992981055308	shi4	room
+709	异	52735	83.020233719385	yi4	(interj.)/raise/to stop, different/unusual/strange
+710	激	52723	83.047480182039	ji1	to arouse/to incite/to excite/to stimulate/sharp/fierce/violent
+711	汉	52656	83.07469202009	han4	Chinese/name of a dynasty
+712	村	52603	83.101876468529	cun1	village
+713	哈	52475	83.12899476847	ha1/ha3	laughter/yawn, a Pekinese/a pug
+714	策	52394	83.156071208816	ce4	method/plan/policy/scheme
+715	演	52394	83.183147649161	yan3	to develop/to evolve/to practice/to perform/to play/to act
+716	简	52280	83.210165176002	jian3	simple
+717	卡	52244	83.237164098577	ka3/qia3	to check/to stop/to block/card, customs station/to be choked/to fasten/to clip/to wedge/checkpost
+718	罪	52068	83.264072066969	zui4	guilt/crime/fault/blame/sin
+719	判	52045	83.290968149302	pan4	to judge/to sentence/to discriminate/to discern
+720	担	51792	83.317733484997	dan1/dan4	to undertake/to carry/to shoulder/to take responsibility, a picul (133.33 lbs.)/burden/a load/responsibility
+721	州	51533	83.344364973341	zhou1	(United States) state/province/sub-prefecture
+722	静	51401	83.370928246048	jing4	still/calm/quiet/not moving
+723	退	51272	83.397424853473	tui4	retreat/to decline/to move back/to withdraw
+724	既	51208	83.423888386648	ji4	already/since/both... (and...)
+725	衣	51134	83.450313677724	yi1/yi4	clothes, gown/to dress/to wear
+726	您	51094	83.476718297395	nin2	you (formal)
+727	宗	50799	83.50297046545	zong1	school/sect/purpose/model/ancestor/family
+728	积	50720	83.529181807481	ji1	to amass/to accumulate/to store/old/long-standing
+729	余	50601	83.55533165208	yu2	extra/surplus/remaining/after/I/me
+730	痛	50459	83.58140811319	tong4	ache/pain/sorrow
+731	检	50413	83.607460802183	jian3	to check/to examine/to inspect
+732	差	50349	83.633480416929	cha1/cha4/chai1/ci1	difference/discrepancy/to differ/error/to err/to make a mistake, differ from/short of/to lack/poor, send/a messenger/a mission/to commission, uneven
+733	富	50273	83.659460756004	fu4	rich
+734	灵	50134	83.685369261945	ling2	alert/departed soul/efficacious/quick/effective/intelligence
+735	协	50123	83.711272083249	xie2	cooperate/harmonize/to help/to assist/to join
+736	角	50081	83.737153199579	jiao3/jue2	angle/horn/horn-shaped, Chinese musical note/angle/horn
+737	占	49980	83.762982120609	zhan1/zhan4	to observe/to divine, to divine, to occupy/to constitute/to make up/to account
+738	配	49900	83.788769698829	pei4	to join/to fit/to mate/to mix/to match/to deserve/to make up (a prescription)
+739	征	49855	83.814534021717	zheng1	attack/levy (troops or taxes)/journey/trip/expedition
+740	修	49829	83.840284908192	xiu1	to decorate/to embellish/to repair/to build/to study/to write/to cultivate
+741	皮	49803	83.866022358254	pi2	leather/skin/fur
+742	挥	49702	83.891707613017	hui1	scatter/wield/wipe away
+743	胜	49565	83.917322068217	sheng1/sheng4	(also sheng4) able to do/competent enough to, peptide, victorious
+744	降	49306	83.942802676066	jiang4/xiang2	to drop/to fall/to come down/to descend, surrender
+745	阶	49058	83.968155121203	jie1	rank or step/stairs
+746	审	48862	83.993406276453	shen3	to examine/to investigate/carefully/to try (in court)
+747	沉	48772	84.01861092104	chen2	submerge/immerse/sink/deep/profound/to lower/to drop
+748	坚	48749	84.04380367957	jian1	strong/solid/firm/unyielding/resolute
+749	善	48739	84.068991270248	shan4	good
+750	妈	48622	84.094118397066	ma1	ma/mamma
+751	刘	48600	84.119234154611	liu2	(surname)/to kill
+752	读	48304	84.144196943755	dou4/du2	comma/phrase marked by pause, to read/to study
+753	啊	48244	84.169128725792	a1/a2/a3/a4/a	(interj.)/ah, an interjection/to express doubt or to question/to show realization/to stress, (interj. for surprise), oh (interjection), (a modal particle showing affirmation, approval, or consent)
+754	超	48218	84.194047071415	chao1	to exceed/overtake/surpass/transcend/ultra-/super-/to pass/to cross
+755	免	48044	84.218875496425	mian3	to exempt/to remove/to avoid/to excuse
+756	压	48038	84.243700820724	ya1/ya4	to press/to push down/to keep under (control), in the first place/to crush
+757	银	47955	84.268483251857	yin2	silver
+758	买	47788	84.293179379872	mai3	buy
+759	皇	47750	84.317855870052	huang2	(surname)/emperor
+760	养	47702	84.342507554546	yang3	give birth/keep (pets)/to support/to bring sb. up/to raise (pig, etc.)
+761	伊	47619	84.367116345874	yi1	he/she/(surname)/Iraq (abbrev.)
+762	怀	47561	84.391695163663	huai2	to think of/to cherish/mind/heart/bosom
+763	执	47543	84.416264679321	zhi2	execute (a plan)/grasp
+764	副	47520	84.44082230892	fu4	secondary/auxiliary/deputy/assistant/vice-/(measure word for a pair)
+765	乱	47474	84.465356166403	luan4	in confusion/disorderly
+766	抗	47342	84.489821808248	kang4	to resist/to fight/to defy
+767	犯	47098	84.51416135452	fan4	to violate/to offend
+768	追	47079	84.538491081875	zhui1	pursue (a problem)/to chase
+769	帮	47065	84.562813574238	bang1	to assist/to support/to help/group/gang/party
+770	宣	47041	84.587123663758	xuan1	to declare (publicly)/to announce
+771	佛	47038	84.611432202922	fo2/fu2	Buddha/Buddhism, seemingly
+772	岁	46835	84.635635834704	sui4	year/years old/(a measure word)
+773	航	46789	84.65981569437	hang2	boat/ship/vessel/craft/to navigate/to sail
+774	优	46613	84.683904599852	you1	excellent/superior
+775	怪	46600	84.707986787127	guai4	queer/to blame
+776	香	46525	84.732030215517	xiang1	fragrant/incense/(of food) savory/appetizing/sweet/scented/popular
+777	著	46239	84.755925843359	zhu4/zhe	
+778	田	45886	84.779639046048	tian2	(surname)/field/farm
+779	铁	45798	84.803306771645	tie3	iron
+780	控	45664	84.826905248035	kong4	to accuse/to charge/to control/to sue
+781	税	45615	84.850478401952	shui4	taxes/duties
+782	左	45568	84.874027266969	zuo3	left
+783	右	45561	84.897572514489	you4	right (-hand)
+784	份	45408	84.921038693884	fen4	(a measure word for gifts, copies of a newspaper)/copy (of newspaper, magazine, etc.)/share/portion/part/(a measure word)
+785	穿	45314	84.944456295476	chuan1	to bore through/pierce/perforate/penetrate/pass through/to dress/to wear/to put on/to thread
+786	艺	45218	84.967824285695	yi4	skill/art
+787	背	45181	84.991173154864	bei1/bei4	carry on one's back, to be burdened/to carry on the back or shoulder, learn by heart/the back of the body
+788	阵	44899	85.014376290626	zhen4	disposition of troops/short period/wave/spate/burst/spell
+789	草	44612	85.037431109053	cao3	grass/straw/draft (of a document)/careless/rough/manuscript/hasty
+790	脚	44529	85.060443034315	jiao3/jue2	a kick/foot/role, role
+791	概	44501	85.083440489592	gai4	general/approximate
+792	恶	44493	85.106433810589	e3/e4/wu4	nauseated, evil, to hate/to loathe
+793	块	44475	85.129417829453	kuai1/kuai4	piece/chunk/lump/(measure word for chunks, lumps), yuan (unit of currency)/fast (of a watch)/swift/rapid/happy/joyful/soon/quick/(a measure word, for cloth, cake, soap)
+794	顿	44425	85.15237600906	dun4	a time/jerk/stop/meal/bout/spell/(measure for beating)
+795	敢	44338	85.175289228361	gan3	dare
+796	守	44264	85.198164205562	shou3	to guard
+797	酒	44069	85.220938409661	jiu3	wine/liquor/spirits
+798	岛	44056	85.243705895554	dao3	island
+799	托	44052	85.266471314306	tuo1	to hold in one's hand/to entrust/to support in one's palm, entrust
+800	央	44052	85.289236733058	yang1	beg/center
+801	户	43810	85.311877089808	hu4	a household/door/family
+802	烈	43751	85.334486956235	lie4	ardent/intense/split/crack/rend
+803	洋	43692	85.357066332338	yang2	foreign/ocean
+804	哥	43620	85.379608499912	ge1	elder brother
+805	索	43365	85.402018887277	suo3	to search/to demand/to ask/to exact/large rope/isolated
+806	胡	43199	85.424343488309	hu2	(surname)/beard/what why how, beard/mustache
+807	款	43087	85.446610209407	kuan3	section/paragraph/funds
+808	靠	42988	85.468825768776	kao4	depend upon/lean on/near/by/against/to support
+809	评	42966	85.491029958871	ping2	to discuss/to comment/to criticize/to judge/to choose (by public appraisal)
+810	版	42853	85.513175752247	ban3	a register/a block of printing/an edition/version/page
+811	宝	42836	85.535312760276	bao3	a jewel or gem/a treasure/precious
+812	座	42814	85.557438399031	zuo4	seat/base/stand/measure word for large, solid things
+813	释	42749	85.579530446753	shi4	explain/to release
+814	景	42738	85.601616809838	jing3	bright/circumstance/scenery
+815	顾	42735	85.623701622568	gu4	look after/take into consideration/to attend to
+816	弟	42706	85.645771448529	di4	younger brother
+817	登	42687	85.667831455572	deng1	scale/climb/ascend/mount/go up/register/note/to publish/to issue/to record
+818	货	42602	85.689847535879	huo4	goods/money/commodity
+819	互	42579	85.711851730128	hu4	mutual
+820	付	42527	85.73382905155	fu4	pay
+821	伯	42513	85.75579913798	bo2	father's elder brother/senior/paternal elder uncle/eldest of brothers/respectful form of address
+822	慢	42506	85.777765606914	man4	slow
+823	欧	42504	85.799731042277	ou1	Europe
+824	换	42292	85.821586919193	huan4	change/exchange
+825	闻	42253	85.843422641487	wen2	(surname)/hear/sniff at
+826	危	42080	85.865168959954	wei1	danger/to endanger
+827	忙	42026	85.886887372023	mang2	busy
+828	核	41944	85.908563407712	he2	nuclear/atomic/stone (of fruit)
+829	暗	41881	85.930206885937	an4	dark/gloomy/hidden/secret, to shut the door/unilluminated
+830	姐	41762	85.95178886673	jie3	older sister
+831	介	41749	85.973364129317	jie4	introduce/lie between/between
+832	坏	41723	85.994925955491	huai4	bad/spoiled, bad
+833	讨	41717	86.016484680954	tao3	ask for/send punitive expedition/to demand/to marry
+834	丽	41363	86.037860464479	li2/li4	Korea, beautiful
+835	良	41167	86.059134958118	liang2	good/very/very much
+836	序	41129	86.080389813921	xu4	order/sequence/preface
+837	升	41105	86.101632266881	sheng1	to raise/to hoist/to promote/pint, ascend/peaceful, promoted
+838	监	41082	86.122862833784	jian1/jian4	hard/strong/solid/firm/to supervise/to inspect/jail/prison, supervisor
+839	临	41068	86.144086165694	lin2	to face/to overlook/to arrive/to be (just) about to/just before
+840	亮	41016	86.165282624777	liang4	light/bright
+841	露	40954	86.186447043182	lu4/lou4	to show/to reveal/to expos/dew
+842	永	40936	86.207602159455	yong3	forever/always/perpetual (ly)
+843	呼	40709	86.228639965502	hu1	to call/to cry/to shout/to breath out/to exhale
+844	味	40704	86.249675187623	wei4	taste
+845	野	40681	86.270698523686	ye3	field/plain/open space/limit/boundary/rude/wild
+846	架	40619	86.291689819071	jia4	to support/frame/rack/framework/measure word for planes, large vehicles, radios, etc.
+847	域	40597	86.312669745183	yu4	field/region/area/domain (taxonomy)
+848	沙	40573	86.333637268452	sha1	granule/hoarse/raspy/sand/powder
+849	掉	40541	86.354588254596	diao4	to drop/to fall
+850	括	40519	86.375527871468	kuo4	enclose/include
+851	舰	40500	86.396457669422	jian4	warship
+852	鱼	40452	86.417362661689	yu2	fish
+853	杂	40265	86.438171015136	za2	mixed/miscellaneous/various/to mix
+854	误	40196	86.458943710409	wu4	mistake/error/to miss/to harm/to delay/to neglect
+855	湾	40101	86.479667311094	wan1	bay/gulf
+856	吉	40081	86.500380576077	ji2	lucky
+857	减	40011	86.5210576661	jian3	to lower/to decrease/to reduce/to subtract/to diminish
+858	编	39879	86.541666540485	bian1	weave/plait/organize/group/arrange/edit/compile/write/compose/fabricate
+859	楚	39846	86.562258360961	chu3	(surname)/ancient place name/distinct/clear/orderly/pain/suffering/(a surname)
+860	肯	39813	86.582833127527	ken3	to agree/to consent/to be ready (to do sth)/willing
+861	测	39752	86.6033763702	ce4	side/to lean/to survey/to measure/conjecture
+862	败	39627	86.623855014732	bai4	be defeated/to defeat/loss
+863	屋	39588	86.644313504643	wu1	house/room
+864	跑	39497	86.664724967106	pao3	to run/to escape
+865	梦	39486	86.685130744934	meng4	to dream
+866	散	39336	86.705459004991	san3/san4	leisurely/loosen/powdered medicine/to scatter/to come loose, adjourn/scatter
+867	温	39312	86.725774862205	wen1	(luke)warm/to review
+868	困	39172	86.7460183695	kun3/kun4	a bunch/tie together, distress/sleepy/doze off, sleepy/doze off
+869	剑	39020	86.766183325454	jian4	(double-edged) sword
+870	渐	39010	86.786343113557	jian1/jian4	imbue, gradual/gradually
+871	封	38954	86.806473961693	feng1	to confer/to grant/to seal/(a measure word)
+872	救	38824	86.826537627761	jiu4	to save/to assist/to rescue
+873	贵	38668	86.846520675348	gui4	expensive/noble/your (name)/precious
+874	枪	38569	86.866452561207	qiang1	gun/firearm/rifle/spear, rifle/spear
+875	缺	38506	86.886351889603	que1	lack/scarce/vacant post/to run short of
+876	楼	38463	86.906228996237	lou2	house with more than 1 story/storied building/floor
+877	县	38407	86.926077162904	xian4	a district/county
+878	尚	38376	86.945909309232	shang4	still/yet/to value/to esteem
+879	毫	38374	86.96574042199	hao2	hair/drawing brush/(in the) least/one thousandth
+880	移	38349	86.985558615119	yi2	to move/to shift/to change/to alter/to remove
+881	娘	38274	87.005338049363	niang2	mother/young lady, mother/troubled
+882	朋	38271	87.025115933252	peng2	friend
+883	画	38263	87.044889682859	hua4	draw/picture/painting
+884	班	38130	87.064594700044	ban1	team/class/rank/squad/a work shift/a measure word/(a surname)
+885	智	38064	87.08426560941	zhi4	wisdom/knowledge
+886	亦	37960	87.103882773122	yi4	also
+887	耳	37939	87.123489084346	er3	ear
+888	恩	37898	87.143074207379	en1	kind act (from above)
+889	短	37834	87.162626256164	duan3	lack/short
+890	掌	37729	87.18212404251	zhang3	in charge of/palm of hand
+891	恐	37676	87.201594439243	kong3	afraid/frightened/to fear
+892	遗	37619	87.221035379224	yi2	to lose/to leave behind
+893	固	37582	87.240457198155	gu4	hard/strong/solid/sure
+894	席	37579	87.25987746673	xi2	banquet/woven mat/seat/place, woven mat
+895	松	37563	87.279289466744	song1	loose/pine, loose
+896	秘	37560	87.298699916402	mi4	secret
+897	谢	37550	87.318105198208	xie4	(surname)/to thank
+898	鲁	37474	87.337471204345	lu3	crass/place name
+899	遇	37343	87.356769511628	yu4	meet with
+900	康	37302	87.376046630722	kang1	peaceful/spongy (of radishes)
+901	虑	37208	87.395275172012	lu:4/lv4	anxiety
+902	幸	37198	87.414498545451	xing4	lucky, fortunate/lucky
+903	均	36842	87.433537943383	jun1	equal/even/all/uniform
+904	销	36821	87.452566488826	xiao1	to melt/to do away with/to sell
+905	钟	36770	87.471568678228	zhong1	clock/time as measured in hours and minutes/bell
+906	诗	36762	87.490566733348	shi1	poem/poetry/verse
+907	藏	36704	87.509534814931	cang2/zang4	to hide away/to conceal/to harbor/store/accumulate, storehouse/depository/Buddhist or Taoist scripture/Zang/Tibet
+908	赶	36599	87.528448634074	gan3	to catch up/to overtake/to hurry/to rush/to drive away
+909	剧	36585	87.547355218226	ju4	drama/play/show/severe
+910	票	36459	87.566196687451	piao4	bank note/ticket
+911	损	36444	87.585030404898	sun3	to damage/injure/to lose/to harm
+912	忽	36378	87.603830014527	hu1	suddenly
+913	巨	36351	87.622615670957	ju4	very large/huge/tremendous/gigantic
+914	炮	36315	87.641382723123	pao4	cannon/gun/firecracker, gun/cannon
+915	旧	36291	87.660137372445	jiu4	old (opposite of new)/former
+916	端	36233	87.678862048229	duan1	end/extremity/item/port/to hold sth. level with both hands/to carry/regular
+917	探	36230	87.697585173658	tan4	to explore/to search out/to scout/to visit
+918	湖	36112	87.716247318441	hu2	lake
+919	录	36080	87.734892926099	lu4	to record/to hit/to copy
+920	叶	36032	87.753513728072	ye4	(surname)/leaf/page
+921	春	36027	87.772131946118	chun1	spring (time)/gay/joyful/youthful/love/lust/life
+922	乡	36025	87.790749130594	xiang1	country/village
+923	附	35955	87.809330140111	fu4	to add/to attach/to be close to/to be attached
+924	吸	35891	87.827878075379	xi1	to breathe/to suck in/to absorb/to inhale
+925	予	35757	87.846356761439	yu2/yu3	I, to give
+926	礼	35612	87.864760513655	li3	gift/propriety/rite
+927	港	35577	87.883146178391	gang3	harbor/Hong Kong (abbr.)
+928	雨	35370	87.901424868604	yu3	rain
+929	呀	35343	87.919689605618	ya/ya1	(final part.)
+930	板	35332	87.937948657996	ban3	board/plank/plate/slab, boss
+931	庭	35205	87.956142078662	ting2	court/courtyard
+932	妇	35188	87.974326713981	fu4	woman
+933	归	35153	87.99249326182	gui1	to go back/to return
+934	睛	35082	88.010623117914	jing1	eye
+935	饭	35076	88.028749873297	fan4	food/cuisine/cooked rice/meal
+936	额	34823	88.046745882042	e2	volume/amount/quantity/forehead/quota
+937	含	34759	88.064708816537	han2	to keep/to contain
+938	顺	34708	88.082645394991	shun4	to obey/to follow/to arrange/to make reasonable/along/favorable
+939	输	34688	88.100571637742	shu1	to transport/to lose
+940	摇	34635	88.118470490881	yao2	shake/to rock
+941	招	34625	88.136364176169	zhao1	provoke/to recruit
+942	婚	34610	88.15425010968	hun1	to marry/marriage/wedding/to take a wife
+943	脱	34548	88.172104002512	tuo1	to shed/to take off/to escape/to get away from
+944	补	34542	88.189954794634	bu3	to repair/to patch/to mend/to make up for/to fill (a vacancy)/to supplement
+945	谓	34527	88.207797834978	wei4	speak of
+946	督	34523	88.225638808182	du1	supervise
+947	毒	34517	88.243476680675	du2	poison/narcotics
+948	油	34469	88.261289747482	you2	oil/sly
+949	疗	34467	88.279101780719	liao2	to treat/to cure
+950	旅	34384	88.296870920789	lu:3/lv3	trip/travel
+951	泽	34311	88.314602335544	ze2	beneficence/marsh
+952	材	34237	88.3322955082	cai2	material
+953	灭	34135	88.349935968771	mie4	extinguish
+954	逐	34128	88.367572811847	zhu2	to pursue/to chase/individually/one by one
+955	莫	34097	88.385193634584	mo4	do not/there is none who
+956	笔	34057	88.402793785915	bi3	pen/pencil/writing brush/to write or compose/the strokes of Chinese characters
+957	亡	33917	88.420321587327	wang2	to die/to perish
+958	鲜	33720	88.437747582068	xian1/xian3	fresh, few/rare
+959	词	33669	88.455147220767	ci2	works/phrases/classical Chinese poem/word/diction
+960	圣	33620	88.472521536995	sheng4	holy/sacred/saint/sage
+961	择	33615	88.489893269296	ze2/zhai2	to select/to choose/to pick, pick over
+962	寻	33469	88.507189550968	xun2	to search/to look for/to seek
+963	厂	33468	88.524485315855	chang3	cliff/slope/factory/yard/depot/workhouse/works/(industrial) plant
+964	睡	33420	88.541756275056	shui4	to sleep
+965	博	33366	88.558999327859	bo2	extensive/ample/rich/obtain/aim/to win/to get/rich/plentiful/to gamble
+966	勒	33228	88.576171064313	le4/lei1	rein in, strangle
+967	烟	33137	88.593295773321	yan1	cigarette/tobacco/smoke
+968	授	33017	88.610358468112	shou4	to teach/to instruct/to award/to give
+969	诺	32991	88.62740772649	nuo4	to promise/to yes
+970	伦	32822	88.64436964818	lun2	human relationship
+971	岸	32807	88.661323818092	an4	bank/shore/beach/coast
+972	奥	32761	88.678254215889	ao4	obscure/mysterious
+973	唐	32757	88.695182546545	tang2	Tang dynasty (618-907)
+974	卖	32694	88.712078319738	mai4	to sell
+975	俄	32638	88.728945152963	e2	suddenly/very soon/Russian
+976	炸	32540	88.745761341245	zha2/zha4	fry, explode
+977	载	32456	88.762534119576	zai3/zai4	year, to carry/to convey/to load/to hold/and/also/as well as/simultaneously
+978	洛	32431	88.779293978278	luo4	(surname)/name of a river
+979	健	32399	88.796037299856	jian4	healthy
+980	堂	32367	88.81276408431	tang2	(main) hall/large room
+981	旁	32268	88.829439707035	pang2	beside/one side/other/side/self
+982	宫	32179	88.846069335883	gong1	palace
+983	喝	32112	88.862664340128	he1/he4	my goodness/to drink, shout applause
+984	借	32027	88.879215417635	jie4	to lend/to borrow/excuse/pretext/by means of
+985	君	31960	88.895731870539	jun1	monarch/lord/gentleman/ruler
+986	禁	31951	88.912243672377	jin1/jin4	endure, to prohibit/to forbid
+987	阴	31936	88.928747722437	yin1	(of weather) overcast/Yin/feminine/moon/cloudy/negative (electric.)/shady
+988	园	31925	88.945246087862	yuan2	garden
+989	谋	31910	88.961736701509	mou2	to plan/seek/scheme
+990	宋	31748	88.978143595964	song4	(surname)/name of a dynasty
+991	避	31731	88.994541705072	bi4	avoid/shun/flee/escape/leave/to keep away/to leave/to hide
+992	抓	31675	89.010910874212	zhua1	to grab/to catch/to arrest/to snatch
+993	荣	31662	89.027273325146	rong2	glory/honored
+994	姑	31647	89.043628024303	gu1	paternal aunt
+995	孙	31506	89.059909856756	sun1	grandson
+996	逃	31468	89.076172051373	tao2	to escape/to run away/to flee
+997	牙	31466	89.09243321242	ya2	tooth/ivory
+998	束	31370	89.108644762095	shu4	bunch/(a measure word)/to bind/to control
+999	跳	31324	89.124832539653	tiao4	jump/hop/skip (a grade)/to leap/to bounce/to beat
+1000	顶	31318	89.1410172165	ding3	go against/most/peak/top/to replace/to substitute/a measure word (use with "hat")
